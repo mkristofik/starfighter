@@ -1,0 +1,29 @@
+Private Function Binary(ByVal searchNum As Integer) As Integer
+
+    Dim first As Integer, last As Integer, isDone As Boolean, c As Integer, mid As Integer
+    c = 0
+    first = 1
+    last = 500
+    isDone = False
+    
+    Do While (last >= first) And (isDone = False)
+        mid = Int((first + last) / 2)
+        c = c + 1
+        If searchNum < cboNumbers.List(mid - 1) Then
+            last = mid - 1
+        Else
+            If searchNum > cboNumbers.List(mid - 1) Then
+                first = mid + 1
+            Else
+                isDone = True
+            End If
+        End If
+    Loop
+    
+    If isDone Then
+        Binary = c
+    Else
+        Binary = 0
+    End If
+    
+End Function

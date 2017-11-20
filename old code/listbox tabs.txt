@@ -1,0 +1,15 @@
+' Declarations required to place tab stops in the weapons list box.
+Const LB_SETTABSTOPS = &H192
+Private Declare Function SendMessage Lib "user32" Alias "SendMessageA" _
+    (ByVal hwnd As Long, ByVal wMsg As Long, ByVal wParam As Long, lParam As Any) As Long
+
+Private Sub SetTabs(lst As ListBox)
+' Calls Windows DLL file to set tab stops in a list box
+    ReDim tabs(0 To 2) As Long      ' # of tab stops
+    Dim returnVal As Long           ' DLL function returns a long
+    tabs(0) = 21                    ' Twips measurement for the tab stops
+    tabs(1) = 121                   ' Lots of fine tuning necessary!
+    tabs(2) = 164
+    returnVal = SendMessage(lst.hwnd, LB_SETTABSTOPS, 3, tabs(0)) ' Call the DLL
+
+End Sub

@@ -1,0 +1,1167 @@
+VERSION 5.00
+Begin VB.Form frmEquipment 
+   BackColor       =   &H80000009&
+   Caption         =   "Modify Equipment"
+   ClientHeight    =   4875
+   ClientLeft      =   1110
+   ClientTop       =   780
+   ClientWidth     =   7590
+   BeginProperty Font 
+      Name            =   "MS Sans Serif"
+      Size            =   8.25
+      Charset         =   0
+      Weight          =   700
+      Underline       =   0   'False
+      Italic          =   0   'False
+      Strikethrough   =   0   'False
+   EndProperty
+   LinkTopic       =   "Form1"
+   MaxButton       =   0   'False
+   MinButton       =   0   'False
+   NegotiateMenus  =   0   'False
+   ScaleHeight     =   4875
+   ScaleWidth      =   7590
+   ShowInTaskbar   =   0   'False
+   Begin VB.CommandButton cmdCancel 
+      Caption         =   "Ca&ncel"
+      Height          =   375
+      Left            =   2880
+      TabIndex        =   29
+      Top             =   1200
+      Width           =   855
+   End
+   Begin VB.ListBox lstFCriticals 
+      Appearance      =   0  'Flat
+      Enabled         =   0   'False
+      Height          =   2370
+      ItemData        =   "Form3.frx":0000
+      Left            =   4560
+      List            =   "Form3.frx":0002
+      TabIndex        =   28
+      Top             =   2280
+      Width           =   252
+   End
+   Begin VB.ListBox lstFuselage 
+      Appearance      =   0  'Flat
+      Height          =   2370
+      ItemData        =   "Form3.frx":0004
+      Left            =   2640
+      List            =   "Form3.frx":0006
+      TabIndex        =   27
+      Top             =   2280
+      Width           =   1812
+   End
+   Begin VB.ListBox lstRWCriticals 
+      Appearance      =   0  'Flat
+      Enabled         =   0   'False
+      Height          =   1200
+      ItemData        =   "Form3.frx":0008
+      Left            =   7080
+      List            =   "Form3.frx":000A
+      TabIndex        =   26
+      Top             =   2280
+      Width           =   252
+   End
+   Begin VB.ListBox lstRightWing 
+      Appearance      =   0  'Flat
+      Height          =   1200
+      ItemData        =   "Form3.frx":000C
+      Left            =   5160
+      List            =   "Form3.frx":000E
+      TabIndex        =   25
+      Top             =   2280
+      Width           =   1815
+   End
+   Begin VB.ListBox lstLWCriticals 
+      Appearance      =   0  'Flat
+      Enabled         =   0   'False
+      Height          =   1200
+      ItemData        =   "Form3.frx":0010
+      Left            =   2040
+      List            =   "Form3.frx":0012
+      TabIndex        =   24
+      Top             =   2280
+      Width           =   252
+   End
+   Begin VB.ListBox lstLeftWing 
+      Appearance      =   0  'Flat
+      Height          =   1200
+      ItemData        =   "Form3.frx":0014
+      Left            =   120
+      List            =   "Form3.frx":0016
+      TabIndex        =   23
+      Top             =   2280
+      Width           =   1812
+   End
+   Begin VB.ListBox lstCCriticals 
+      Appearance      =   0  'Flat
+      Enabled         =   0   'False
+      Height          =   1200
+      ItemData        =   "Form3.frx":0018
+      Left            =   6000
+      List            =   "Form3.frx":001A
+      TabIndex        =   22
+      TabStop         =   0   'False
+      Top             =   360
+      Width           =   255
+   End
+   Begin VB.ListBox lstCockpit 
+      Appearance      =   0  'Flat
+      Height          =   1200
+      ItemData        =   "Form3.frx":001C
+      Left            =   4080
+      List            =   "Form3.frx":001E
+      TabIndex        =   21
+      Top             =   360
+      Width           =   1812
+   End
+   Begin VB.CommandButton cmdChgSpd 
+      Caption         =   "Change &Speed"
+      Height          =   375
+      Left            =   5520
+      TabIndex        =   20
+      Top             =   3720
+      Width           =   1575
+   End
+   Begin VB.CommandButton cmdClose 
+      Caption         =   "&Close"
+      Height          =   375
+      Left            =   6600
+      TabIndex        =   19
+      Top             =   120
+      Width           =   855
+   End
+   Begin VB.CommandButton cmdRemove 
+      Caption         =   "&Remove"
+      Height          =   375
+      Left            =   2880
+      TabIndex        =   2
+      Top             =   600
+      Width           =   855
+   End
+   Begin VB.CommandButton cmdAdd 
+      Caption         =   "&Add"
+      Height          =   375
+      Left            =   2880
+      TabIndex        =   1
+      Top             =   120
+      Width           =   855
+   End
+   Begin VB.ListBox lstEquipment 
+      BeginProperty Font 
+         Name            =   "MS Sans Serif"
+         Size            =   8.25
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   1425
+      ItemData        =   "Form3.frx":0020
+      Left            =   120
+      List            =   "Form3.frx":0022
+      Sorted          =   -1  'True
+      TabIndex        =   0
+      Top             =   120
+      Width           =   2535
+   End
+   Begin VB.Label lblFNum 
+      Appearance      =   0  'Flat
+      BackColor       =   &H80000005&
+      Caption         =   "12"
+      ForeColor       =   &H80000008&
+      Height          =   255
+      Left            =   600
+      TabIndex        =   18
+      Top             =   4440
+      Width           =   255
+   End
+   Begin VB.Label lblLWNum 
+      Appearance      =   0  'Flat
+      BackColor       =   &H80000005&
+      Caption         =   "6"
+      ForeColor       =   &H80000008&
+      Height          =   255
+      Left            =   1680
+      TabIndex        =   17
+      Top             =   4200
+      Width           =   255
+   End
+   Begin VB.Label lblRWNum 
+      Appearance      =   0  'Flat
+      BackColor       =   &H80000005&
+      Caption         =   "6"
+      ForeColor       =   &H80000008&
+      Height          =   252
+      Left            =   1680
+      TabIndex        =   16
+      Top             =   4440
+      Width           =   252
+   End
+   Begin VB.Label lblCNum 
+      Appearance      =   0  'Flat
+      BackColor       =   &H80000005&
+      Caption         =   "6"
+      ForeColor       =   &H80000008&
+      Height          =   252
+      Left            =   600
+      TabIndex        =   15
+      Top             =   4200
+      Width           =   252
+   End
+   Begin VB.Label lblRW 
+      Appearance      =   0  'Flat
+      BackColor       =   &H80000005&
+      Caption         =   "RW:"
+      ForeColor       =   &H80000008&
+      Height          =   252
+      Left            =   1080
+      TabIndex        =   14
+      Top             =   4440
+      Width           =   492
+   End
+   Begin VB.Label lblLW 
+      Appearance      =   0  'Flat
+      BackColor       =   &H80000005&
+      Caption         =   "LW:"
+      ForeColor       =   &H80000008&
+      Height          =   255
+      Left            =   1080
+      TabIndex        =   13
+      Top             =   4200
+      Width           =   375
+   End
+   Begin VB.Label lblF 
+      Appearance      =   0  'Flat
+      BackColor       =   &H80000005&
+      Caption         =   "F:"
+      ForeColor       =   &H80000008&
+      Height          =   255
+      Left            =   120
+      TabIndex        =   12
+      Top             =   4440
+      Width           =   255
+   End
+   Begin VB.Label lblC 
+      Appearance      =   0  'Flat
+      BackColor       =   &H80000005&
+      Caption         =   "C:"
+      ForeColor       =   &H80000008&
+      Height          =   252
+      Left            =   120
+      TabIndex        =   11
+      Top             =   4200
+      Width           =   252
+   End
+   Begin VB.Label lblCritsLeft 
+      Appearance      =   0  'Flat
+      BackColor       =   &H80000005&
+      Caption         =   "30"
+      ForeColor       =   &H80000008&
+      Height          =   252
+      Left            =   2040
+      TabIndex        =   10
+      Top             =   3960
+      Width           =   252
+   End
+   Begin VB.Label lblCrits 
+      Appearance      =   0  'Flat
+      BackColor       =   &H80000005&
+      Caption         =   "Criticals Remaining:"
+      ForeColor       =   &H80000008&
+      Height          =   252
+      Left            =   120
+      TabIndex        =   9
+      Top             =   3960
+      Width           =   1812
+   End
+   Begin VB.Label lblSpcLeft 
+      Appearance      =   0  'Flat
+      BackColor       =   &H80000005&
+      Caption         =   "0.00"
+      ForeColor       =   &H80000008&
+      Height          =   252
+      Left            =   1320
+      TabIndex        =   8
+      Top             =   3600
+      Width           =   612
+   End
+   Begin VB.Label lblSpace 
+      Appearance      =   0  'Flat
+      BackColor       =   &H80000005&
+      Caption         =   "Space Left:"
+      ForeColor       =   &H80000008&
+      Height          =   252
+      Left            =   120
+      TabIndex        =   7
+      Top             =   3600
+      Width           =   1092
+   End
+   Begin VB.Label lblRightWing 
+      Alignment       =   2  'Center
+      Appearance      =   0  'Flat
+      BackColor       =   &H80000005&
+      Caption         =   "Right Wing"
+      ForeColor       =   &H80000008&
+      Height          =   255
+      Left            =   5400
+      TabIndex        =   6
+      Top             =   2040
+      Width           =   1335
+   End
+   Begin VB.Label lblFuselage 
+      Alignment       =   2  'Center
+      Appearance      =   0  'Flat
+      BackColor       =   &H80000005&
+      Caption         =   "Fuselage"
+      ForeColor       =   &H80000008&
+      Height          =   255
+      Left            =   3000
+      TabIndex        =   5
+      Top             =   2040
+      Width           =   1095
+   End
+   Begin VB.Label lblLeftWing 
+      Alignment       =   2  'Center
+      Appearance      =   0  'Flat
+      BackColor       =   &H80000005&
+      Caption         =   "Left Wing"
+      ForeColor       =   &H80000008&
+      Height          =   255
+      Left            =   480
+      TabIndex        =   4
+      Top             =   2040
+      Width           =   1095
+   End
+   Begin VB.Label lblCockpit 
+      Alignment       =   2  'Center
+      Appearance      =   0  'Flat
+      BackColor       =   &H80000005&
+      Caption         =   "Cockpit"
+      ForeColor       =   &H80000008&
+      Height          =   255
+      Left            =   4560
+      TabIndex        =   3
+      Top             =   120
+      Width           =   855
+   End
+End
+Attribute VB_Name = "frmEquipment"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = False
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+
+Dim CurEquipment, CurType As String
+Dim CurCriticals, CurLoc As Integer
+Dim CurSpace As Single
+Dim IsAdd, IsRemove As Boolean
+
+
+Private Sub cmdAdd_Click()
+    If CurEquipment <> "" And IsRemove = False Then
+        IsAdd = True
+        CheckSpecial
+    End If
+    
+    If IsRemove = True Then IsRemove = False
+End Sub
+
+Private Sub cmdCancel_Click()
+    Dim i As Integer
+    
+    IsAdd = False
+    IsRemove = False
+    CurEquipment = ""
+    
+    For i = 1 To lstCockpit.ListCount
+        lstCockpit.Selected(i - 1) = False
+    Next i
+    
+    For i = 1 To lstFuselage.ListCount
+        lstFuselage.Selected(i - 1) = False
+    Next i
+    
+    For i = 1 To lstLeftWing.ListCount
+        lstLeftWing.Selected(i - 1) = False
+    Next i
+    
+    For i = 1 To lstRightWing.ListCount
+        lstRightWing.Selected(i - 1) = False
+    Next i
+
+End Sub
+
+Private Sub cmdRemove_Click()
+    If IsRemove Then
+        If RTrim(CurEquipment) = "Shields" Or CurEquipment = "Isometal IS" Then
+            MsgBox "That item cannot be removed.", vbExclamation
+            CurEquipment = ""
+            IsRemove = False
+            Exit Sub
+        End If
+                
+        If RTrim(CurEquipment) = "Hyperdrive" Then
+            RemoveHDrive
+        ElseIf RTrim(CurEquipment) = "S-Foil" Then
+            RemoveSFoil
+        Else
+            RemoveStuff (CurLoc)
+        End If
+        
+        If InStr(CurEquipment, "Co-pilot") Then
+            If Armor.C > 5 Then Armor.C = 5
+            frmArmor.vsbCArmor.Min = 5
+            frmArmor.Show
+        End If
+    End If
+End Sub
+
+Private Sub AddHDrive()
+    ' First see if it's necessary to add it.
+    If Engine.Criticals = 1 Then
+        MsgBox "Current engine type includes a Hyperdrive", vbExclamation
+        IsAdd = False
+        Exit Sub
+    End If
+    
+    If Craft.HDrive <> 0 Then
+        MsgBox "Hyperdrive already added.", vbExclamation
+        IsAdd = False
+        Exit Sub
+    End If
+    
+    ' Check if there are enough available Fuselage criticals.
+    CurCriticals = Int((Craft.TotalSpace - 1) / 20) + 1
+    If TotalCrits.F + CurCriticals <= 12 Then
+        ' If so, add it.
+        CurSpace = CurCriticals
+        AddStuff (2)
+        Craft.HDrive = CurSpace
+        frmMain.lblHDriveSpc = FormatNumber(CurSpace, 2)
+        
+        ' Update the criticals information
+        TotalCrits.F = TotalCrits.F + CurCriticals
+        lblFNum.Caption = 12 - TotalCrits.F
+        UpdateTotalCrits
+    Else
+        ' If not, get an error.
+        MsgBox "Number of Fuselage criticals exceeded.", vbExclamation
+        IsAdd = False
+    End If
+End Sub
+
+Public Sub RemoveHDrive()
+    Dim loc As Integer
+    
+    ' Find where it's currently placed.
+    Do While RTrim(lstFuselage.List(loc)) <> "Hyperdrive"
+        loc = loc + 1
+    Loop
+        
+    ' Remove it.
+    TotalCrits.F = TotalCrits.F - CInt(Craft.HDrive)
+    lblFNum.Caption = 12 - TotalCrits.F
+    lstFuselage.RemoveItem (loc)
+    lstFCriticals.RemoveItem (loc)
+    
+    Craft.HDrive = 0
+    frmMain.lblHDriveSpc = FormatNumber(0, 2)
+    
+    Call RemoveItem(2, loc)
+    IsRemove = False
+End Sub
+
+Private Sub AddSFoil()
+    ' Check if there are enough criticals in both wings.
+    If TotalCrits.LW < 6 And TotalCrits.RW < 6 Then
+        ' See if they are not already added.
+        Dim i, found As Integer
+        For i = 1 To 6
+            If RTrim(Criticals(3, i).WeapName) = "S-Foil" Or _
+                RTrim(Criticals(4, i).WeapName) = "S-Foil" Then
+                found = True
+                Exit For
+            End If
+        Next i
+        
+        If found Then
+            MsgBox "S-Foils already added to the wings.", vbExclamation
+            IsAdd = False
+            Exit Sub
+        End If
+        
+        ' If not, add them.
+        TotalCrits.LW = TotalCrits.LW + 1
+        TotalCrits.RW = TotalCrits.RW + 1
+        lblLWNum.Caption = lblLWNum.Caption - 1
+        lblRWNum.Caption = lblRWNum.Caption - 1
+        AddStuff (3)
+        IsAdd = True
+        AddStuff (4)
+    Else
+        MsgBox "Number of criticals exceeded.", vbExclamation
+        IsAdd = False
+    End If
+End Sub
+
+Private Sub RemoveSFoil()
+    Dim lwloc, rwloc, LW, RW As Integer
+    
+    For lwloc = 0 To 5
+        If RTrim(lstLeftWing.List(lwloc)) = "S-Foil" Then Exit For
+    Next lwloc
+    
+    For rwloc = 0 To 5
+        If RTrim(lstRightWing.List(rwloc)) = "S-Foil" Then Exit For
+    Next rwloc
+    
+    TotalCrits.LW = TotalCrits.LW - 1
+    lblLWNum.Caption = 6 - TotalCrits.LW
+    
+    TotalCrits.RW = TotalCrits.RW - 1
+    lblRWNum.Caption = 6 - TotalCrits.RW
+    
+    Call RemoveItem(3, LW)
+    Call RemoveItem(4, RW)
+    
+    lstLeftWing.RemoveItem (LW)
+    lstLWCriticals.RemoveItem (LW)
+    lstRightWing.RemoveItem (RW)
+    lstRWCriticals.RemoveItem (RW)
+    
+    IsRemove = False
+End Sub
+
+Private Sub Form_Initialize()
+
+    lstEquipment.Height = 1425
+    lstCockpit.Height = 1200
+    lstCCriticals.Height = 1200
+    lstLeftWing.Height = 1200
+    lstLWCriticals.Height = 1200
+    lstRightWing.Height = 1200
+    lstRWCriticals.Height = 1200
+    lstFuselage.Height = 2370
+    lstFCriticals.Height = 2370
+
+End Sub
+
+Private Sub Form_QueryUnload(Cancel As Integer, UnloadMode As Integer)
+    If UnloadMode = 0 Or UnloadMode = 1 Then
+        cmdClose_Click
+    End If
+End Sub
+
+Private Sub cmdChgSpd_Click()
+    frmChgSpd.Visible = True
+End Sub
+
+Private Sub cmdClose_Click()
+    Dim done As Boolean
+    done = CheckSensors
+    If done Then
+        frmEquipment.Visible = False
+        Unload Me
+        CalcEngine
+    Else
+        MsgBox "There are no sensors placed in the Cockpit.  Remedy this problem.", vbExclamation
+        Exit Sub
+    End If
+End Sub
+
+Private Function CheckSensors()
+    Dim ans As Boolean
+    
+    If InStr(Criticals(1, 5).WeapName, "Sensors") = 0 And InStr(Criticals(1, 6).WeapName, _
+        "Sensors") = 0 Then
+        ans = False
+    Else
+        ans = True
+    End If
+    
+    CheckSensors = ans
+    
+End Function
+
+Private Sub Form_Load()
+    ' If wingless, then un-enable appropriate items.
+    If Craft.Wings = 0 Then
+        lblLeftWing.Enabled = False
+        lblLW.Enabled = False
+        lblLWNum.Enabled = False
+        lblRightWing.Enabled = False
+        lblRW.Enabled = False
+        lblRWNum.Enabled = False
+        lstLeftWing.Enabled = False
+        lstRightWing.Enabled = False
+    End If
+    
+    ReadEquipment
+    IsAdd = False
+    IsRemove = False
+    
+    Dim i, loc As Integer
+    Dim curList, critList
+    For i = 1 To 12
+        For loc = 1 To 4
+            If loc = 1 Then
+                Set curList = lstCockpit
+                Set critList = lstCCriticals
+            End If
+            
+            If loc = 2 Then
+                Set curList = lstFuselage
+                Set critList = lstFCriticals
+            End If
+            
+            If loc = 3 Then
+                Set curList = lstLeftWing
+                Set critList = lstLWCriticals
+            End If
+            
+            If loc = 4 Then
+                Set curList = lstRightWing
+                Set critList = lstRWCriticals
+            End If
+            
+            If Criticals(loc, i).NumCrits Then
+                curList.AddItem (Criticals(loc, i).WeapName)
+                critList.AddItem (Criticals(loc, i).NumCrits)
+            End If
+        Next loc
+    Next i
+    
+    lblCNum.Caption = 6 - TotalCrits.C
+    lblFNum.Caption = 12 - TotalCrits.F
+    lblLWNum.Caption = 6 - TotalCrits.LW
+    lblRWNum.Caption = 6 - TotalCrits.RW
+    UpdateTotalCrits
+    
+End Sub
+
+Private Sub ReadEquipment()
+
+' Engines
+    Open App.Path & "\engine.dat" For Input As #1
+    
+    Dim EngineName, TechBase As String
+    Dim ManBase, Criticals As Integer
+    Dim Modifier As Single
+    
+    Do Until EOF(1)
+        Input #1, EngineName, Modifier, ManBase, Criticals, TechBase
+        If InStr(TechBase, Craft.TechBase) <> 0 Then _
+            frmEquipment.lstEquipment.AddItem (EngineName)
+    Loop
+    Close #1
+    
+' Common Equipment
+    Open App.Path & "\common.dat" For Input As #1
+    
+    Dim Range, WeapName, Tohit As String
+    Dim Damage
+    Dim WeapSpace As Single
+    
+    Do Until EOF(1)
+        Input #1, WeapName, Damage, Range, WeapSpace, Criticals, Tohit
+        frmEquipment.lstEquipment.AddItem (WeapName)
+    Loop
+    Close #1
+    
+' Equipment unique to the tech base.
+    Dim strPath As String
+    strPath = App.Path & "\" & Craft.TechBase & "equip.dat"
+    Open strPath For Input As #1
+    Do Until EOF(1)
+       Input #1, WeapName, Damage, Range, WeapSpace, Criticals, Tohit
+        frmEquipment.lstEquipment.AddItem (WeapName)
+    Loop
+    Close #1
+    
+End Sub
+
+
+Private Sub lstEquipment_DblClick()
+    frmEquipInfo.Show
+End Sub
+
+Private Sub lstEquipment_Click()
+    Dim IsEngine, IsCommon As Boolean
+    Dim EquipText As String
+    IsEngine = False
+    IsCommon = False
+    
+    EquipText = lstEquipment.Text
+                   
+    If InStr(EquipText, "Engine") Or InStr(EquipText, "Converter") Then IsEngine = True
+    If InStr(EquipText, "  ") Then IsCommon = True
+    
+    ' Engines...
+    If IsEngine Then
+        Open App.Path & "\engine.dat" For Input As #1
+        Dim EngineName, TechBase As String
+        Dim ManBase, Criticals As Integer
+        Dim Modifier As Single
+    
+        Do Until EOF(1)
+            Input #1, EngineName, Modifier, ManBase, Criticals, TechBase
+            If EngineName = EquipText Then
+                CurEquipment = EngineName
+                CurCriticals = Criticals
+                CurSpace = HypoEngSpace(Modifier)
+                CurType = "Engine"
+            End If
+        Loop
+        Close #1
+    
+    
+    ' Common Items...
+    ElseIf IsCommon Then
+        Open App.Path & "\common.dat" For Input As #1
+        Dim Range, WeapName, Tohit As String
+        Dim Damage
+        Dim WeapSpace As Single
+    
+        Do Until EOF(1)
+            Input #1, WeapName, Damage, Range, WeapSpace, Criticals, Tohit
+            If WeapName = EquipText Then
+                CurEquipment = WeapName
+                CurCriticals = Criticals
+                CurSpace = WeapSpace
+                CurType = "Common"
+            End If
+        Loop
+        Close #1
+    
+    ' Unique to tech base
+    Else
+        Dim strPath As String
+        strPath = App.Path & "\" & Craft.TechBase & "equip.dat"
+        Open strPath For Input As #1
+        Do Until EOF(1)
+            Input #1, WeapName, Damage, Range, WeapSpace, Criticals, Tohit
+            If WeapName = EquipText Then
+                CurEquipment = WeapName
+                CurCriticals = Criticals
+                CurSpace = WeapSpace
+                CurType = "Unique"
+            End If
+        Loop
+        Close #1
+    End If
+    
+End Sub
+
+Private Function HypoEngSpace(SpeedMod As Single)
+' Calculate the hypothetical engine space with this engine.
+    Dim ER, Temp As Single
+    
+    If SpeedMod = 0.5 Then
+        ER = Craft.TotalSpace * Engine.Speed / 2
+        Temp = ER / 100
+    Else
+        ER = Craft.TotalSpace * (Engine.Speed + SpeedMod)
+        Temp = ER / 100
+    End If
+    
+    If Temp < 0 Then Temp = 0
+    HypoEngSpace = Temp
+End Function
+Private Sub lstCockpit_Click()
+    CurEquipment = lstCockpit.Text
+    CurLoc = 1
+    If CurEquipment <> "" Then IsRemove = True
+End Sub
+Private Sub lstCockpit_GotFocus()
+    Dim i As Integer
+    
+    If IsAdd Then
+        If CurSpace <= 2 Then
+            TotalCrits.C = TotalCrits.C + CurCriticals
+            If TotalCrits.C <= 6 Then
+                AddStuff (1)
+                lblCNum.Caption = 6 - TotalCrits.C
+                UpdateTotalCrits
+                
+                If InStr(CurEquipment, "Co-pilot") Then
+                    frmArmor.vsbCArmor.Min = 6
+                    frmArmor.Show
+                End If
+            Else
+                TotalCrits.C = TotalCrits.C - CurCriticals
+                MsgBox "Number of criticals exceeded.", vbExclamation
+                IsAdd = False
+            End If
+        Else
+            MsgBox "That item cannot be placed in the Cockpit.", vbExclamation
+            IsAdd = False
+            Exit Sub
+        End If
+    End If
+End Sub
+
+
+Private Sub lstLeftWing_Click()
+    CurEquipment = lstLeftWing.Text
+    CurLoc = 3
+    If CurEquipment <> "" Then IsRemove = True
+End Sub
+
+Private Sub lstLeftWing_GotFocus()
+    Dim i As Integer
+    
+    If IsAdd Then
+    
+        If InStr(CurEquipment, "*") Then
+            MsgBox "That item can only be added to the Cockpit.", vbExclamation
+            IsAdd = False
+            Exit Sub
+        End If
+    
+        TotalCrits.LW = TotalCrits.LW + CurCriticals
+        
+        If TotalCrits.LW <= 6 Then
+            AddStuff (3)
+            lblLWNum.Caption = 6 - TotalCrits.LW
+            UpdateTotalCrits
+        Else
+            TotalCrits.LW = TotalCrits.LW - CurCriticals
+            MsgBox "Number of criticals exceeded.", vbExclamation
+            IsAdd = False
+        End If
+    End If
+End Sub
+
+
+Private Sub lstRightWing_Click()
+    CurEquipment = lstRightWing.Text
+    CurLoc = 4
+    If CurEquipment <> "" Then IsRemove = True
+End Sub
+
+Private Sub lstRightWing_GotFocus()
+    Dim i As Integer
+    
+    If IsAdd Then
+        If InStr(CurEquipment, "*") Then
+            MsgBox "That item can only be added to the Cockpit.", vbExclamation
+            IsAdd = False
+            Exit Sub
+        End If
+    
+        TotalCrits.RW = TotalCrits.RW + CurCriticals
+        
+        If TotalCrits.RW <= 6 Then
+            AddStuff (4)
+            lblRWNum.Caption = 6 - TotalCrits.RW
+            UpdateTotalCrits
+        Else
+            TotalCrits.RW = TotalCrits.RW - CurCriticals
+            MsgBox "Number of criticals exceeded.", vbExclamation
+            IsAdd = False
+        End If
+    End If
+End Sub
+
+Private Sub lstFuselage_GotFocus()
+    Dim i As Integer
+    
+    If IsAdd Then
+        If InStr(CurEquipment, "*") Then
+            MsgBox "That item can only be added to the Cockpit.", vbExclamation
+            IsAdd = False
+            Exit Sub
+        End If
+    
+        TotalCrits.F = TotalCrits.F + CurCriticals
+        
+        ' Subtract the current engine's criticals if adding a new engine.
+        If CurType = "Engine" Then TotalCrits.F = TotalCrits.F - Engine.Criticals
+               
+        If TotalCrits.F <= 12 Then
+            AddStuff (2)
+            lblFNum.Caption = 12 - TotalCrits.F
+            UpdateTotalCrits
+        Else
+            TotalCrits.F = TotalCrits.F - CurCriticals
+            
+            ' Add back the current engine's criticals if adding failed.
+            If CurType = "Engine" Then TotalCrits.F = TotalCrits.F + Engine.Criticals
+                        
+            MsgBox "Number of criticals exceeded.", vbExclamation
+            IsAdd = False
+        End If
+    End If
+End Sub
+
+Private Sub lstFuselage_Click()
+    If IsAdd = False Then CurEquipment = lstFuselage.Text
+    CurLoc = 2
+    If CurEquipment <> "" Then IsRemove = True
+    
+End Sub
+
+Private Sub AddEngine(loc As Integer)
+    Dim CurLoc As Integer
+        
+    If loc <> 2 Then
+        MsgBox "Engines can only be placed in the Fuselage." _
+            , vbExclamation
+        IsAdd = False
+        If loc = 1 Then TotalCrits.C = TotalCrits.C - CurCriticals
+        If loc = 3 Then TotalCrits.LW = TotalCrits.LW - CurCriticals
+        If loc = 4 Then TotalCrits.RW = TotalCrits.RW - CurCriticals
+        Exit Sub
+    End If
+    
+    ' First take the current engine off.
+    For i = 0 To 11
+        If InStr(lstFuselage.List(i), "Engine") Or InStr(lstFuselage.List(i), "Converter") Then
+            lstFuselage.RemoveItem (i)
+            lstFCriticals.RemoveItem (i)
+                            
+            CurLoc = i
+            Call RemoveItem(2, CurLoc)
+            Exit For
+        End If
+    Next i
+    
+    ' Now add in the new one.
+    lstFuselage.AddItem (CurEquipment)
+    lstFCriticals.AddItem (CurCriticals)
+        
+    i = 1
+    Do While RTrim(Criticals(loc, i).WeapName) <> ""
+        i = i + 1
+    Loop
+    CurLoc = i
+    Call AddItem(loc, CurLoc)
+    
+    ' Fill in the new engine data.
+    With Engine
+        .Criticals = CurCriticals
+        .EngType = CurEquipment
+    End With
+    
+    CalcEngine
+    
+    ' If the new engine comes with a hyperdrive, remove the current one
+    ' if it exists.
+    If Engine.Criticals = 1 And Craft.HDrive <> 0 Then
+        MsgBox "New engine comes with a Hyperdrive.  Removing current one."
+        RemoveHDrive
+    End If
+    
+    IsAdd = False
+End Sub
+
+Private Sub AddStuff(loc As Integer)
+    If CurType = "Engine" Then
+        AddEngine (loc)
+        Exit Sub
+    End If
+    
+    If (RTrim(CurEquipment) = "SLAM System" Or RTrim(CurEquipment) = "After Burner (10)") _
+    And loc <> 2 Then
+        MsgBox "That system can only be added to the Fuselage"
+        IsAdd = False
+        
+        If loc = 1 Then TotalCrits.C = TotalCrits.C - CurCriticals
+        If loc = 3 Then TotalCrits.LW = TotalCrits.LW - CurCriticals
+        If loc = 4 Then TotalCrits.RW = TotalCrits.RW - CurCriticals
+        Exit Sub
+    End If
+        
+    If RTrim(CurEquipment) = "SLAM System" And Craft.Slam Then
+        MsgBox "SLAM System already present."
+        IsAdd = False
+        TotalCrits.F = TotalCrits.F - 2
+        Exit Sub
+    End If
+    
+    Dim i As Integer
+    i = 1
+    Do While RTrim(Criticals(loc, i).WeapName) <> ""
+        i = i + 1
+    Loop
+    
+    
+    If loc = 4 Then
+        lstRightWing.AddItem (CurEquipment)
+        lstRWCriticals.AddItem (CurCriticals)
+        Call AddItem(loc, i)
+    End If
+        
+    If loc = 3 Then
+        lstLeftWing.AddItem (CurEquipment)
+        lstLWCriticals.AddItem (CurCriticals)
+        Call AddItem(loc, i)
+    End If
+    
+    If loc = 2 Then
+        lstFuselage.AddItem (CurEquipment)
+        lstFCriticals.AddItem (CurCriticals)
+        Call AddItem(loc, i)
+    End If
+    
+    If loc = 1 Then
+        If InStr(CurEquipment, "*") Then CurEquipment = _
+            left(CurEquipment, Len(CurEquipment) - 1)
+            
+        If InStr(CurEquipment, "Sensors") Then
+            ' Check for duplicate sensors.
+            Dim count As Integer
+            For count = 5 To 6
+                If InStr(Criticals(1, count).WeapName, "Sensors") Then Exit For
+            Next count
+        
+            If count <> 7 Then
+                MsgBox "Sensors already added.  To change type, remove current sensors."
+                IsAdd = False
+                TotalCrits.C = TotalCrits.C - CurCriticals
+                Exit Sub
+            End If
+        End If
+        
+        lstCockpit.AddItem (CurEquipment)
+        lstCCriticals.AddItem (CurCriticals)
+        Call AddItem(loc, i)
+    End If
+    
+    IsAdd = False
+End Sub
+
+Private Sub RemoveStuff(loc As Integer)
+    Dim num, i, j, Temp As Integer
+    Dim curList, CurNumList As Object
+    
+    If InStr(CurEquipment, "Engine") Or InStr(CurEquipment, "Converter") Then
+        MsgBox "That item cannot be removed.", vbExclamation
+        IsRemove = False
+        Exit Sub
+    End If
+    
+    If loc = 4 Then
+        Set curList = lstRightWing
+        Set CurNumList = lstRWCriticals
+        num = curList.ListIndex
+        TotalCrits.RW = TotalCrits.RW - Criticals(loc, num + 1).NumCrits
+        lblRWNum.Caption = 6 - TotalCrits.RW
+    End If
+    
+    If loc = 3 Then
+        Set curList = lstLeftWing
+        Set CurNumList = lstLWCriticals
+        num = curList.ListIndex
+        TotalCrits.LW = TotalCrits.LW - Criticals(loc, num + 1).NumCrits
+        lblLWNum.Caption = 6 - TotalCrits.LW
+    End If
+    
+    If loc = 2 Then
+        Set curList = lstFuselage
+        Set CurNumList = lstFCriticals
+        num = curList.ListIndex
+        TotalCrits.F = TotalCrits.F - Criticals(loc, num + 1).NumCrits
+        lblFNum.Caption = 12 - TotalCrits.F
+    End If
+    
+    If loc = 1 Then
+        Set curList = lstCockpit
+        Set CurNumList = lstCCriticals
+        num = curList.ListIndex
+        
+        If num < 4 Then
+            MsgBox "That item cannot be removed.", vbExclamation
+            IsRemove = False
+            Exit Sub
+        End If
+        
+        TotalCrits.C = TotalCrits.C - Criticals(loc, num + 1).NumCrits
+        lblCNum.Caption = 6 - TotalCrits.C
+    End If
+    
+    curList.RemoveItem (num)
+    CurNumList.RemoveItem (num)
+    
+    Temp = num
+       
+    Call RemoveItem(loc, Temp)
+    IsRemove = False
+End Sub
+
+Private Sub AddItem(Location, num)
+    With Criticals(Location, num)
+        .WeapName = RTrim(CurEquipment)
+        .NumCrits = CurCriticals
+        .WeapSpace = CurSpace
+    End With
+    
+    If RTrim(CurEquipment) = "SLAM System" Then Craft.Slam = True
+    If RTrim(CurEquipment) = "TAG System" Then Craft.Tag = True
+    If InStr(CurEquipment, "Warhead") Then Craft.Warheads = Craft.Warheads + 1
+End Sub
+
+Private Sub RemoveItem(Location As Integer, myNum)
+    With Criticals(Location, myNum + 1)
+        .WeapName = ""
+        .NumCrits = 0
+        .WeapSpace = 0
+    End With
+    
+    For i = myNum + 1 To 11
+        j = i + 1
+        With Criticals(Location, i)
+            .WeapName = Criticals(Location, j).WeapName
+            .NumCrits = Criticals(Location, j).NumCrits
+            .WeapSpace = Criticals(Location, j).WeapSpace
+        End With
+    Next i
+    
+    With Criticals(Location, i)
+        .WeapName = ""
+        .NumCrits = 0
+        .WeapSpace = 0
+    End With
+    
+    UpdateTotalCrits
+    
+    If RTrim(CurEquipment) = "SLAM System" Then Craft.Slam = False
+    If RTrim(CurEquipment) = "TAG System" Then Craft.Tag = False
+    If InStr(CurEquipment, "Warhead") Then Craft.Warheads = Craft.Warheads - 1
+End Sub
+
+Public Sub UpdateTotalCrits()
+    Dim Total As Integer
+    Total = 30
+    Total = Total - TotalCrits.C - TotalCrits.F - TotalCrits.LW - _
+        TotalCrits.RW
+    lblCritsLeft.Caption = Total
+    
+    ' Update total space information.
+    lblSpcLeft.Caption = FormatNumber(SpaceLeft, 2)
+    If lblSpcLeft.Caption >= 0 Then
+        lblSpcLeft.ForeColor = vbBlack
+    Else
+        lblSpcLeft.ForeColor = vbRed
+    End If
+    
+End Sub
+
+Private Sub CheckSpecial()
+    If RTrim(CurEquipment) = "Hyperdrive" Then AddHDrive
+    If RTrim(CurEquipment) = "S-Foil" Then AddSFoil
+    If CurType = "Engine" Then lstFuselage_GotFocus
+    
+    If RTrim(CurEquipment) = "TAG System" And Craft.Tag Then
+        MsgBox "TAG System already added."
+        IsAdd = False
+    End If
+    
+    If InStr(CurEquipment, "Warhead") And Craft.Warheads = 4 Then
+        MsgBox "Number of warhead launchers exceeded."
+        IsAdd = False
+    End If
+End Sub
+
