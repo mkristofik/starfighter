@@ -1,0 +1,192 @@
+[
+    {
+        "id": 1,
+        "name": "Fusion Engine",
+        "criticals": 4,
+        "type": "standard engine",
+        "techbase": [
+            "New Republic",
+            "Herald"
+        ],
+        "base_maneuverability": 6,
+        "rating_speed_modifier": 2,
+        "speed_mult_pct": 100
+    },
+    {
+        "id": 2,
+        "name": "Fusion XL Engine",
+        "criticals": 6,
+        "type": "standard engine",
+        "techbase": [
+            "New Republic",
+            "Herald"
+        ],
+        "base_maneuverability": 6,
+        "rating_speed_modifier": 0,
+        "speed_mult_pct": 100
+    },
+    {
+        "id": 3,
+        "name": "Fusion 2XL Engine",
+        "criticals": 8,
+        "type": "standard engine",
+        "techbase": [
+            "New Republic",
+            "Herald"
+        ],
+        "base_maneuverability": 5,
+        "rating_speed_modifier": -2,
+        "speed_mult_pct": 100
+    },
+    {
+        "id": 4,
+        "name": "Ion Engine",
+        "criticals": 2,
+        "type": "standard engine",
+        "techbase": [
+            "Imperial",
+            "Ploxus"
+        ],
+        "base_maneuverability": 5,
+        "rating_speed_modifier": 2,
+        "speed_mult_pct": 100
+    },
+    {
+        "id": 5,
+        "name": "Ion XL Engine",
+        "criticals": 3,
+        "type": "standard engine",
+        "techbase": [
+            "Imperial",
+            "Ploxus"
+        ],
+        "base_maneuverability": 5,
+        "rating_speed_modifier": 0,
+        "speed_mult_pct": 100
+    },
+    {
+        "id": 6,
+        "name": "Ion 2XL Engine",
+        "criticals": 4,
+        "type": "standard engine",
+        "techbase": [
+            "Imperial",
+            "Ploxus"
+        ],
+        "base_maneuverability": 4,
+        "rating_speed_modifier": -2,
+        "speed_mult_pct": 100
+    },
+    {
+        "id": 7,
+        "name": "Crystal SDT Engine",
+        "criticals": 1,
+        "type": "goofy engine",
+        "techbase": [
+            "Imperial",
+            "Ploxus"
+        ],
+        "base_maneuverability": 5,
+        "rating_speed_modifier": -1,
+        "speed_mult_pct": 100
+    },
+    {
+        "id": 8,
+        "name": "Antimatter Converter",
+        "criticals": 1,
+        "type": "goofy engine",
+        "techbase": [
+            "New Republic",
+            "Herald"
+        ],
+        "base_maneuverability": 4,
+        "rating_speed_modifier": -2,
+        "speed_mult_pct": 100
+    },
+    {
+        "id": 9,
+        "name": "Tzo Converter",
+        "criticals": 1,
+        "type": "goofy engine",
+        "techbase": [
+            "Herald"
+        ],
+        "base_maneuverability": 4,
+        "rating_speed_modifier": -2,
+        "speed_mult_pct": 150
+    },
+    {
+        "id": 10,
+        "name": "Hyperdrive",
+        "criticals": 20,
+        "type": "hyperdrive",
+        "techbase": [
+            "Common"
+        ],
+        "base_maneuverability": 0,
+        "rating_speed_modifier": 0,
+        "speed_mult_pct": 0
+    },
+    {
+        "id": 11,
+        "name": "SLAM System",
+        "criticals": 2,
+        "type": "afterburner",
+        "techbase": [
+            "Imperial"
+        ],
+        "base_maneuverability": 0,
+        "rating_speed_modifier": 0,
+        "speed_mult_pct": 200
+    },
+    {
+        "id": 12,
+        "name": "After Burner (10)",
+        "criticals": 1,
+        "type": "afterburner",
+        "techbase": [
+            "Herald",
+            "Ploxus"
+        ],
+        "base_maneuverability": 0,
+        "rating_speed_modifier": 0,
+        "speed_mult_pct": 200
+    },
+    {
+        "id": 14,
+        "name": "Inertia-less Drive",
+        "criticals": 2,
+        "type": "goofy engine",
+        "techbase": [
+            "Herald"
+        ],
+        "base_maneuverability": 0,
+        "rating_speed_modifier": 0,
+        "speed_mult_pct": 100
+    },
+    {
+        "id": 15,
+        "name": "After Burner (30)",
+        "criticals": 2,
+        "type": "afterburner",
+        "techbase": [
+            "Herald"
+        ],
+        "base_maneuverability": 0,
+        "rating_speed_modifier": 0,
+        "speed_mult_pct": 300
+    },
+    {
+        "id": 16,
+        "name": "Scion Engine",
+        "criticals": 2,
+        "type": "goofy engine",
+        "techbase": [
+            "Imperial",
+            "Ploxus"
+        ],
+        "base_maneuverability": 4,
+        "rating_speed_modifier": -2,
+        "speed_mult_pct": 100
+    }
+]
