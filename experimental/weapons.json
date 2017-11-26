@@ -1,0 +1,1811 @@
+[
+    {
+        "id": 1,
+        "name": "Targeting Computer",
+        "damage": "0",
+        "space": 0.0,
+        "criticals": 1,
+        "range": "1 board",
+        "tohit": "0",
+        "maxnum": 1,
+        "techbase": [
+            "Common"
+        ],
+        "locations": [
+            "cockpit"
+        ],
+        "options": []
+    },
+    {
+        "id": 2,
+        "name": "Communications",
+        "damage": "0",
+        "space": 0.0,
+        "criticals": 1,
+        "range": "0",
+        "tohit": "0",
+        "maxnum": 1,
+        "techbase": [
+            "Common"
+        ],
+        "locations": [
+            "cockpit"
+        ],
+        "options": []
+    },
+    {
+        "id": 3,
+        "name": "Life Support",
+        "damage": "0",
+        "space": 0.0,
+        "criticals": 1,
+        "range": "0",
+        "tohit": "0",
+        "maxnum": 1,
+        "techbase": [
+            "Common"
+        ],
+        "locations": [
+            "cockpit"
+        ],
+        "options": []
+    },
+    {
+        "id": 4,
+        "name": "Auto-Eject System",
+        "damage": "0",
+        "space": 0.0,
+        "criticals": 1,
+        "range": "0",
+        "tohit": "0",
+        "maxnum": 1,
+        "techbase": [
+            "Common"
+        ],
+        "locations": [
+            "cockpit"
+        ],
+        "options": []
+    },
+    {
+        "id": 5,
+        "name": "Sensors",
+        "damage": "---",
+        "space": 0.0,
+        "criticals": 1,
+        "range": "1 board",
+        "tohit": "---",
+        "maxnum": 1,
+        "techbase": [
+            "Common"
+        ],
+        "locations": [
+            "cockpit"
+        ],
+        "options": []
+    },
+    {
+        "id": 6,
+        "name": "Long-Range Sensors",
+        "damage": "---",
+        "space": 0.0,
+        "criticals": 2,
+        "range": "2 boards",
+        "tohit": "---",
+        "maxnum": 1,
+        "techbase": [
+            "Common"
+        ],
+        "locations": [
+            "cockpit"
+        ],
+        "options": []
+    },
+    {
+        "id": 7,
+        "name": "Co-Pilot",
+        "damage": "---",
+        "space": 0.5,
+        "criticals": 1,
+        "range": "---",
+        "tohit": "---",
+        "maxnum": 1,
+        "techbase": [
+            "Common"
+        ],
+        "locations": [
+            "cockpit"
+        ],
+        "options": []
+    },
+    {
+        "id": 8,
+        "name": "S Foil",
+        "damage": "---",
+        "space": 0.0,
+        "criticals": 2,
+        "range": "---",
+        "tohit": "---",
+        "maxnum": 1,
+        "techbase": [
+            "New Republic",
+            "Imperial"
+        ],
+        "locations": [
+            "left wing",
+            "right wing"
+        ],
+        "options": []
+    },
+    {
+        "id": 14,
+        "name": "Heavy Turbolaser",
+        "damage": "15",
+        "space": 12.0,
+        "criticals": 6,
+        "range": "4-5/6-10/11-15",
+        "tohit": "+3",
+        "maxnum": 0,
+        "techbase": [
+            "Common"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Medium Turbolaser",
+        "damage": "12",
+        "space": 10.0,
+        "criticals": 5,
+        "range": "3-4/5-9/10-12",
+        "tohit": "+2",
+        "maxnum": 0,
+        "techbase": [
+            "Common"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Small Turbolaser",
+        "damage": "10",
+        "space": 6.0,
+        "criticals": 4,
+        "range": "2/3-6/7-8",
+        "tohit": "+1",
+        "maxnum": 0,
+        "techbase": [
+            "Common"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Light Railgun",
+        "damage": "3",
+        "space": 3.0,
+        "criticals": 1,
+        "range": "1-7/8-14/15-20",
+        "tohit": "+0",
+        "maxnum": 0,
+        "techbase": [
+            "Common"
+        ],
+        "locations": [
+            "cockpit",
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 18,
+        "name": "TAG System",
+        "damage": "---",
+        "space": 1.0,
+        "criticals": 1,
+        "range": "1-2/3-4/5-6",
+        "tohit": "0",
+        "maxnum": 0,
+        "techbase": [
+            "Common"
+        ],
+        "locations": [
+            "cockpit",
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": []
+    },
+    {
+        "id": 19,
+        "name": "Warhead Hardpoint",
+        "damage": "varies",
+        "space": 2.0,
+        "criticals": 1,
+        "range": "varies",
+        "tohit": "varies",
+        "maxnum": 0,
+        "techbase": [
+            "Common"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "warhead launcher",
+            "weapon"
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Warhead Latch",
+        "damage": "varies",
+        "space": 1.0,
+        "criticals": 1,
+        "range": "varies",
+        "tohit": "varies",
+        "maxnum": 0,
+        "techbase": [
+            "Common"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "warhead launcher",
+            "weapon"
+        ]
+    },
+    {
+        "id": 21,
+        "name": "Dual Small Laser",
+        "damage": "3x1D2",
+        "space": 3.0,
+        "criticals": 1,
+        "range": "1/2/3",
+        "tohit": "-2",
+        "maxnum": 0,
+        "techbase": [
+            "New Republic",
+            "Imperial"
+        ],
+        "locations": [
+            "cockpit",
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 22,
+        "name": "Heavy Pulse Laser",
+        "damage": "8",
+        "space": 5.0,
+        "criticals": 3,
+        "range": "3/4-6/7-8",
+        "tohit": "-1",
+        "maxnum": 0,
+        "techbase": [
+            "New Republic",
+            "Imperial"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 23,
+        "name": "Medium Pulse Laser",
+        "damage": "6",
+        "space": 3.5,
+        "criticals": 2,
+        "range": "1-2/3-4/5-6",
+        "tohit": "-2",
+        "maxnum": 0,
+        "techbase": [
+            "New Republic",
+            "Imperial"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 24,
+        "name": "Quad Medium Laser",
+        "damage": "5x1D4",
+        "space": 6.0,
+        "criticals": 4,
+        "range": "1/2-3/4",
+        "tohit": "-2",
+        "maxnum": 0,
+        "techbase": [
+            "New Republic",
+            "Imperial"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 25,
+        "name": "Small Pulse Laser",
+        "damage": "4",
+        "space": 2.0,
+        "criticals": 2,
+        "range": "1/2-3/4",
+        "tohit": "-3",
+        "maxnum": 0,
+        "techbase": [
+            "New Republic",
+            "Imperial"
+        ],
+        "locations": [
+            "cockpit",
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 26,
+        "name": "Advanced Missile Ammo (6)",
+        "damage": "30",
+        "space": 1.0,
+        "criticals": 1,
+        "range": "2-4/5-8/9-10",
+        "tohit": "4+",
+        "maxnum": 0,
+        "techbase": [
+            "New Republic",
+            "Imperial"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 27,
+        "name": "Advanced Torpedo Ammo (4)",
+        "damage": "75",
+        "space": 1.0,
+        "criticals": 1,
+        "range": "3-4/5-7/8-10",
+        "tohit": "7+",
+        "maxnum": 0,
+        "techbase": [
+            "New Republic",
+            "Imperial"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 28,
+        "name": "Heavy Rocket Ammo (2)",
+        "damage": "175",
+        "space": 1.0,
+        "criticals": 1,
+        "range": "max: 24",
+        "tohit": "---",
+        "maxnum": 0,
+        "techbase": [
+            "New Republic",
+            "Imperial"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 29,
+        "name": "Missile Ammo (4)",
+        "damage": "15",
+        "space": 1.0,
+        "criticals": 1,
+        "range": "3-4/5-8/9-10",
+        "tohit": "5+",
+        "maxnum": 0,
+        "techbase": [
+            "New Republic",
+            "Imperial"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 30,
+        "name": "R-2 Unit",
+        "damage": "---",
+        "space": 0.5,
+        "criticals": 1,
+        "range": "---",
+        "tohit": "---",
+        "maxnum": 1,
+        "techbase": [
+            "New Republic"
+        ],
+        "locations": [
+            "cockpit"
+        ],
+        "options": []
+    },
+    {
+        "id": 31,
+        "name": "Sensor Jamming Pack",
+        "damage": "---",
+        "space": 0.5,
+        "criticals": 2,
+        "range": "1 board",
+        "tohit": "---",
+        "maxnum": 1,
+        "techbase": [
+            "New Republic"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": []
+    },
+    {
+        "id": 32,
+        "name": "Space Bomb",
+        "damage": "325",
+        "space": 1.0,
+        "criticals": 1,
+        "range": "max: 24",
+        "tohit": "---",
+        "maxnum": 0,
+        "techbase": [
+            "New Republic",
+            "Imperial"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 33,
+        "name": "Heavy Ion Cannon",
+        "damage": "6",
+        "space": 4.5,
+        "criticals": 2,
+        "range": "3/4-6/7-8",
+        "tohit": "+1",
+        "maxnum": 0,
+        "techbase": [
+            "New Republic",
+            "Imperial"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 34,
+        "name": "Heavy Laser",
+        "damage": "6",
+        "space": 4.5,
+        "criticals": 2,
+        "range": "3/4-6/7-8",
+        "tohit": "+1",
+        "maxnum": 0,
+        "techbase": [
+            "New Republic",
+            "Imperial"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 35,
+        "name": "Medium Ion Cannon",
+        "damage": "5",
+        "space": 3.0,
+        "criticals": 1,
+        "range": "1-2/3-4/5-6",
+        "tohit": "+0",
+        "maxnum": 0,
+        "techbase": [
+            "New Republic",
+            "Imperial"
+        ],
+        "locations": [
+            "cockpit",
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 36,
+        "name": "Medium Laser",
+        "damage": "5",
+        "space": 3.0,
+        "criticals": 1,
+        "range": "1-2/3-4/5-6",
+        "tohit": "+0",
+        "maxnum": 0,
+        "techbase": [
+            "New Republic",
+            "Imperial"
+        ],
+        "locations": [
+            "cockpit",
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 37,
+        "name": "Small Ion Cannon",
+        "damage": "3",
+        "space": 1.5,
+        "criticals": 1,
+        "range": "1/2-3/4",
+        "tohit": "-1",
+        "maxnum": 0,
+        "techbase": [
+            "New Republic",
+            "Imperial"
+        ],
+        "locations": [
+            "cockpit",
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 38,
+        "name": "Small Laser",
+        "damage": "3",
+        "space": 1.5,
+        "criticals": 1,
+        "range": "1/2-3/4",
+        "tohit": "-1",
+        "maxnum": 0,
+        "techbase": [
+            "New Republic",
+            "Imperial"
+        ],
+        "locations": [
+            "cockpit",
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 39,
+        "name": "Warhead Launcher",
+        "damage": "varies",
+        "space": 5.0,
+        "criticals": 1,
+        "range": "varies",
+        "tohit": "varies",
+        "maxnum": 0,
+        "techbase": [
+            "New Republic",
+            "Imperial"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "warhead launcher",
+            "weapon"
+        ]
+    },
+    {
+        "id": 40,
+        "name": "Dual Small Ion Cannon",
+        "damage": "3x1D2",
+        "space": 3.0,
+        "criticals": 1,
+        "range": "1/2/3",
+        "tohit": "-2",
+        "maxnum": 0,
+        "techbase": [
+            "New Republic",
+            "Imperial"
+        ],
+        "locations": [
+            "cockpit",
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 42,
+        "name": "Heavy Pulse Laser",
+        "damage": "9",
+        "space": 4.5,
+        "criticals": 1,
+        "range": "1-3/4-6/7-8",
+        "tohit": "-1",
+        "maxnum": 0,
+        "techbase": [
+            "Ploxus"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 43,
+        "name": "Medium Pulse Laser",
+        "damage": "7",
+        "space": 3.0,
+        "criticals": 1,
+        "range": "1-2/3-4/5-6",
+        "tohit": "-2",
+        "maxnum": 0,
+        "techbase": [
+            "Ploxus"
+        ],
+        "locations": [
+            "cockpit",
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 44,
+        "name": "Medium Railgun",
+        "damage": "5",
+        "space": 5.0,
+        "criticals": 1,
+        "range": "1-7/8-14/15-20",
+        "tohit": "+0",
+        "maxnum": 0,
+        "techbase": [
+            "Ploxus"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 45,
+        "name": "Small Pulse Laser",
+        "damage": "5",
+        "space": 1.5,
+        "criticals": 1,
+        "range": "1/2-3/4",
+        "tohit": "-3",
+        "maxnum": 0,
+        "techbase": [
+            "Ploxus"
+        ],
+        "locations": [
+            "cockpit",
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 46,
+        "name": "Heavy Rocket Ammo (2)",
+        "damage": "200",
+        "space": 1.0,
+        "criticals": 1,
+        "range": "max: 24",
+        "tohit": "---",
+        "maxnum": 0,
+        "techbase": [
+            "Ploxus"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 47,
+        "name": "Missile Ammo (4)",
+        "damage": "30",
+        "space": 1.0,
+        "criticals": 1,
+        "range": "3-4/5-8/9-10",
+        "tohit": "4+",
+        "maxnum": 0,
+        "techbase": [
+            "Ploxus"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 48,
+        "name": "Space Bomb",
+        "damage": "400",
+        "space": 1.0,
+        "criticals": 1,
+        "range": "max: 24",
+        "tohit": "---",
+        "maxnum": 0,
+        "techbase": [
+            "Ploxus"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 49,
+        "name": "Torpedo Ammo (3)",
+        "damage": "75",
+        "space": 1.0,
+        "criticals": 1,
+        "range": "4/5-7/8-10",
+        "tohit": "7+",
+        "maxnum": 0,
+        "techbase": [
+            "Ploxus"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 50,
+        "name": "Heavy Ion Cannon",
+        "damage": "9",
+        "space": 4.5,
+        "criticals": 1,
+        "range": "3/4-6/7-8",
+        "tohit": "-1",
+        "maxnum": 0,
+        "techbase": [
+            "Ploxus"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 51,
+        "name": "Medium Ion Cannon",
+        "damage": "7",
+        "space": 3.0,
+        "criticals": 1,
+        "range": "1-2/3-4/5-6",
+        "tohit": "-2",
+        "maxnum": 0,
+        "techbase": [
+            "Ploxus"
+        ],
+        "locations": [
+            "cockpit",
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 52,
+        "name": "Small Ion Cannon",
+        "damage": "5",
+        "space": 1.5,
+        "criticals": 1,
+        "range": "1/2-3/4",
+        "tohit": "-3",
+        "maxnum": 0,
+        "techbase": [
+            "Ploxus"
+        ],
+        "locations": [
+            "cockpit",
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 53,
+        "name": "Heavy Laser",
+        "damage": "6",
+        "space": 4.0,
+        "criticals": 1,
+        "range": "3/4-6/7-8",
+        "tohit": "+1",
+        "maxnum": 0,
+        "techbase": [
+            "Ploxus"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 54,
+        "name": "Medium Laser",
+        "damage": "5",
+        "space": 2.5,
+        "criticals": 1,
+        "range": "1-2/3-4/5-6",
+        "tohit": "+0",
+        "maxnum": 0,
+        "techbase": [
+            "Ploxus"
+        ],
+        "locations": [
+            "cockpit",
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 55,
+        "name": "Small Laser",
+        "damage": "3",
+        "space": 1.0,
+        "criticals": 1,
+        "range": "1/2-3/4",
+        "tohit": "-1",
+        "maxnum": 0,
+        "techbase": [
+            "Ploxus"
+        ],
+        "locations": [
+            "cockpit",
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 56,
+        "name": "Warhead Launcher",
+        "damage": "varies",
+        "space": 4.0,
+        "criticals": 1,
+        "range": "varies",
+        "tohit": "varies",
+        "maxnum": 0,
+        "techbase": [
+            "Ploxus"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "warhead launcher",
+            "weapon"
+        ]
+    },
+    {
+        "id": 57,
+        "name": "Fission Cannon",
+        "damage": "20",
+        "space": 8.0,
+        "criticals": 1,
+        "range": "1-3/4-8/9-12",
+        "tohit": "+0",
+        "maxnum": 0,
+        "techbase": [
+            "Ploxus"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 58,
+        "name": "Particle Gun",
+        "damage": "12",
+        "space": 5.0,
+        "criticals": 1,
+        "range": "1-4/5-8/9-12",
+        "tohit": "+0",
+        "maxnum": 0,
+        "techbase": [
+            "Ploxus"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 59,
+        "name": "Lightbounce Sensors",
+        "damage": "---",
+        "space": 0.0,
+        "criticals": 1,
+        "range": "1/2 board",
+        "tohit": "---",
+        "maxnum": 1,
+        "techbase": [
+            "New Republic"
+        ],
+        "locations": [
+            "cockpit"
+        ],
+        "options": []
+    },
+    {
+        "id": 60,
+        "name": "Torpedo Ammo (3)",
+        "damage": "50",
+        "space": 1.0,
+        "criticals": 1,
+        "range": "4/5-7/8-10",
+        "tohit": "8+",
+        "maxnum": 0,
+        "techbase": [
+            "New Republic",
+            "Imperial"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 61,
+        "name": "Cargo",
+        "damage": "---",
+        "space": 5.0,
+        "criticals": 1,
+        "range": "---",
+        "tohit": "---",
+        "maxnum": 0,
+        "techbase": [
+            "Common"
+        ],
+        "locations": [
+            "fuselage"
+        ],
+        "options": []
+    },
+    {
+        "id": 62,
+        "name": "Small Compression Laser",
+        "damage": "7",
+        "space": 1.5,
+        "criticals": 1,
+        "range": "2/4/6",
+        "tohit": "+0",
+        "maxnum": 0,
+        "techbase": [
+            "Herald"
+        ],
+        "locations": [
+            "cockpit",
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 63,
+        "name": "Medium Compression Laser",
+        "damage": "13",
+        "space": 4.0,
+        "criticals": 1,
+        "range": "4/8/12",
+        "tohit": "+0",
+        "maxnum": 0,
+        "techbase": [
+            "Herald"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 64,
+        "name": "Small Laser",
+        "damage": "6",
+        "space": 1.0,
+        "criticals": 1,
+        "range": "1/2/3",
+        "tohit": "+0",
+        "maxnum": 0,
+        "techbase": [
+            "Herald"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 65,
+        "name": "Medium Laser",
+        "damage": "12",
+        "space": 3.0,
+        "criticals": 1,
+        "range": "2/4/6",
+        "tohit": "0",
+        "maxnum": 0,
+        "techbase": [
+            "Herald"
+        ],
+        "locations": [
+            "cockpit",
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 66,
+        "name": "Large Laser",
+        "damage": "18",
+        "space": 4.5,
+        "criticals": 1,
+        "range": "3/6/9",
+        "tohit": "0",
+        "maxnum": 0,
+        "techbase": [
+            "Herald"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 67,
+        "name": "Large Compression Laser",
+        "damage": "20",
+        "space": 6.5,
+        "criticals": 1,
+        "range": "5/10/15",
+        "tohit": "0",
+        "maxnum": 0,
+        "techbase": [
+            "Herald"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 68,
+        "name": "Small Pulse Laser",
+        "damage": "15",
+        "space": 2.0,
+        "criticals": 1,
+        "range": "1-2/3/4",
+        "tohit": "-2",
+        "maxnum": 0,
+        "techbase": [
+            "Herald"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 69,
+        "name": "Medium Pulse Laser",
+        "damage": "24",
+        "space": 5.0,
+        "criticals": 1,
+        "range": "3/6/9",
+        "tohit": "-2",
+        "maxnum": 0,
+        "techbase": [
+            "Herald"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 70,
+        "name": "Large Pulse Laser",
+        "damage": "32",
+        "space": 8.0,
+        "criticals": 2,
+        "range": "4/8/12",
+        "tohit": "-2",
+        "maxnum": 0,
+        "techbase": [
+            "Herald"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 71,
+        "name": "90mm Accelerator AC",
+        "damage": "18x1D2",
+        "space": 6.0,
+        "criticals": 1,
+        "range": "4/8/12",
+        "tohit": "0",
+        "maxnum": 0,
+        "techbase": [
+            "Herald"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 72,
+        "name": "90mm Ammo (20)",
+        "damage": "-",
+        "space": 1.0,
+        "criticals": 1,
+        "range": "-",
+        "tohit": "-",
+        "maxnum": 0,
+        "techbase": [
+            "Herald"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": []
+    },
+    {
+        "id": 73,
+        "name": "SP Missile Launcher",
+        "damage": "50",
+        "space": 4.0,
+        "criticals": 1,
+        "range": "5/10/15",
+        "tohit": "+3",
+        "maxnum": 0,
+        "techbase": [
+            "Herald"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "warhead launcher",
+            "weapon"
+        ]
+    },
+    {
+        "id": 74,
+        "name": "SP Ammo (8)",
+        "damage": "-",
+        "space": 1.0,
+        "criticals": 1,
+        "range": "-",
+        "tohit": "-",
+        "maxnum": 0,
+        "techbase": [
+            "Herald"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": []
+    },
+    {
+        "id": 75,
+        "name": "SG Missile Launcher",
+        "damage": "50",
+        "space": 5.0,
+        "criticals": 1,
+        "range": "6/11/16",
+        "tohit": "4+",
+        "maxnum": 0,
+        "techbase": [
+            "Herald"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "warhead launcher",
+            "weapon"
+        ]
+    },
+    {
+        "id": 76,
+        "name": "SG Ammo (6)",
+        "damage": "-",
+        "space": 1.0,
+        "criticals": 1,
+        "range": "-",
+        "tohit": "-",
+        "maxnum": 0,
+        "techbase": [
+            "Herald"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": []
+    },
+    {
+        "id": 77,
+        "name": "Jihad Torpedo Launcher",
+        "damage": "200",
+        "space": 12.0,
+        "criticals": 2,
+        "range": "max: 24",
+        "tohit": "---",
+        "maxnum": 0,
+        "techbase": [
+            "Herald"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "warhead launcher",
+            "weapon"
+        ]
+    },
+    {
+        "id": 78,
+        "name": "Jihad Ammo (4)",
+        "damage": "-",
+        "space": 1.0,
+        "criticals": 1,
+        "range": "-",
+        "tohit": "-",
+        "maxnum": 0,
+        "techbase": [
+            "Herald"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": []
+    },
+    {
+        "id": 79,
+        "name": "H.O.G. Torpedo Launcher",
+        "damage": "1200",
+        "space": 20.0,
+        "criticals": 4,
+        "range": "max:24",
+        "tohit": "---",
+        "maxnum": 0,
+        "techbase": [
+            "Herald"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "warhead launcher",
+            "weapon"
+        ]
+    },
+    {
+        "id": 80,
+        "name": "H.O.G. Torpedo",
+        "damage": "-",
+        "space": 1.0,
+        "criticals": 1,
+        "range": "-",
+        "tohit": "-",
+        "maxnum": 0,
+        "techbase": [
+            "Herald"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": []
+    },
+    {
+        "id": 81,
+        "name": "SP2 Missile Launcher",
+        "damage": "75",
+        "space": 8.0,
+        "criticals": 2,
+        "range": "5/10/15",
+        "tohit": "+3",
+        "maxnum": 0,
+        "techbase": [
+            "Herald"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "warhead launcher",
+            "weapon"
+        ]
+    },
+    {
+        "id": 82,
+        "name": "SP2 Ammo (5)",
+        "damage": "-",
+        "space": 1.0,
+        "criticals": 1,
+        "range": "-",
+        "tohit": "-",
+        "maxnum": 0,
+        "techbase": [
+            "Herald"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": []
+    },
+    {
+        "id": 83,
+        "name": "ECM",
+        "damage": "*",
+        "space": 1.0,
+        "criticals": 1,
+        "range": "---",
+        "tohit": "---",
+        "maxnum": 1,
+        "techbase": [
+            "Herald"
+        ],
+        "locations": [
+            "cockpit",
+            "fuselage"
+        ],
+        "options": []
+    },
+    {
+        "id": 84,
+        "name": "Active Probe Sensors",
+        "damage": "*",
+        "space": 0.0,
+        "criticals": 1,
+        "range": "3 Boards",
+        "tohit": "---",
+        "maxnum": 1,
+        "techbase": [
+            "Herald"
+        ],
+        "locations": [
+            "cockpit"
+        ],
+        "options": []
+    },
+    {
+        "id": 85,
+        "name": "Heavy Railgun",
+        "damage": "8",
+        "space": 8.0,
+        "criticals": 1,
+        "range": "7/14/20",
+        "tohit": "0",
+        "maxnum": 0,
+        "techbase": [
+            "Ploxus"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 87,
+        "name": "EMP",
+        "damage": "50*",
+        "space": 3.0,
+        "criticals": 1,
+        "range": "1/2/3",
+        "tohit": "+1",
+        "maxnum": 0,
+        "techbase": [
+            "Herald"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 88,
+        "name": "EMP Beam",
+        "damage": "70*",
+        "space": 5.0,
+        "criticals": 1,
+        "range": "3/6/9",
+        "tohit": "0",
+        "maxnum": 0,
+        "techbase": [
+            "Herald"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 89,
+        "name": "EMP Blaster",
+        "damage": "160*",
+        "space": 9.0,
+        "criticals": 2,
+        "range": "5/10/15",
+        "tohit": "+1",
+        "maxnum": 0,
+        "techbase": [
+            "Herald"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 91,
+        "name": "Gatling Medium Laser",
+        "damage": "7 x1D6",
+        "space": 9.0,
+        "criticals": 3,
+        "range": "1-2/3-4/5",
+        "tohit": "-3",
+        "maxnum": 0,
+        "techbase": [
+            "Imperial",
+            "Ploxus"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 92,
+        "name": "Dual Small Ion Cannon",
+        "damage": "5 x1D2",
+        "space": 2.0,
+        "criticals": 1,
+        "range": "1/2/3",
+        "tohit": "-3",
+        "maxnum": 0,
+        "techbase": [
+            "Ploxus"
+        ],
+        "locations": [
+            "cockpit",
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 93,
+        "name": "Small Mega Laser",
+        "damage": "12",
+        "space": 6.0,
+        "criticals": 4,
+        "range": "2/4/6",
+        "tohit": "0",
+        "maxnum": 0,
+        "techbase": [
+            "Ploxus"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 94,
+        "name": "Medium Mega Laser",
+        "damage": "14",
+        "space": 10.0,
+        "criticals": 5,
+        "range": "3/6/9",
+        "tohit": "+1",
+        "maxnum": 0,
+        "techbase": [
+            "Ploxus"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    },
+    {
+        "id": 95,
+        "name": "Heavy Mega Laser",
+        "damage": "16",
+        "space": 12.0,
+        "criticals": 6,
+        "range": "4/8/12",
+        "tohit": "+2",
+        "maxnum": 0,
+        "techbase": [
+            "Ploxus"
+        ],
+        "locations": [
+            "fuselage",
+            "left wing",
+            "right wing"
+        ],
+        "options": [
+            "weapon"
+        ]
+    }
+]

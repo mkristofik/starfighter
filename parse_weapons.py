@@ -1,4 +1,8 @@
+"""Convert a weapons data file in VB6 format to JSON."""
+
+import json
 import struct
+import sys
 
 
 def get_techbase(tb):
@@ -68,6 +72,9 @@ def parse_weapons(filename):
 
 
 if __name__ == '__main__':
+    filename = 'weapons.db'
+    if len(sys.argv) > 1:
+        filename = sys.argv[1]
     #with open('engines.db', 'rb') as f:
     #    for (e1, e2, e3, e4, e5, e6, e7, e8) in struct.iter_unpack('<25s7h', f.read()):
     #        print(e1, e2, e3, e4, e5, e6, e7, e8)
@@ -82,5 +89,6 @@ if __name__ == '__main__':
     #        (w1, w2, w3, w4, w5, w6, w7, w8, w9, w10, w11) = record
     #        name = record[0].decode()
     #        print(name, w2, w3, w4, w5, w6, w7, w8, w9, w10, w11)
-    for record in parse_weapons('weapons.db'):
-        print(record)
+    #for record in parse_weapons('weapons.db'):
+    #    print(record)
+    print(json.dumps(list(parse_weapons(filename)), indent=4))
