@@ -2,6 +2,7 @@
 
 import itertools
 import json
+import os
 import struct
 import sys
 from vb6_stuff import *
@@ -93,15 +94,20 @@ def load_data_file(filename):
             yield (obj['id'], obj['name'])
 
 
+def script_path():
+    return os.path.dirname(os.path.abspath(__file__))
+
+
 if __name__ == '__main__':
-    if len(sys.argv) < 4:
-        print('usage:', 'python', sys.argv[0], '<weapons file> <engines file> <sw2 file>')
+    if len(sys.argv) < 2:
+        print('usage:', 'python', sys.argv[0], '<sw2 file>')
         sys.exit(1)
 
-    weapons_file = sys.argv[1]
+    mydir = script_path()
+    weapons_file = os.path.join(mydir, 'weapons.json')
     weapons = dict(load_data_file(weapons_file))
-    engines_file = sys.argv[2]
+    engines_file = os.path.join(mydir, 'engines.json')
     engines = dict(load_data_file(engines_file))
-    starfighter_file = sys.argv[3]
-    starfighter = parse_starfighter(starfighter_file, weapons, engines)
+
+    starfighter = parse_starfighter(sys.argv[1], weapons, engines)
     print(json.dumps(starfighter, indent=4))
