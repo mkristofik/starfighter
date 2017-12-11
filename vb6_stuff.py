@@ -1,5 +1,7 @@
 """Helper functions for reading the old VB6 data files."""
 
+import struct
+
 
 def get_techbase(tb):
     ret = []
@@ -17,3 +19,8 @@ def get_techbase(tb):
     if not ret:
         raise RuntimeError
     return ret
+
+
+def read_unpack(binary_file, fmt):
+    """Read bytes from a binary file sized according to the given struct format."""
+    return struct.unpack(fmt, binary_file.read(struct.calcsize(fmt)))

@@ -3,7 +3,6 @@
 import itertools
 import json
 import os
-import struct
 import sys
 from vb6_stuff import *
 
@@ -86,7 +85,7 @@ def parse_criticals(crit_buf, weapons, engines):
 
 def parse_starfighter(filename, weapons, engines):
     with open(filename, 'rb') as f:
-        record = struct.unpack('<25s6s94h', f.read())
+        record = read_unpack(f, '<25s6s94h')
         return {
             'name': record[0].decode().strip(),
             'abbr': record[1].decode().strip(),
@@ -104,11 +103,6 @@ def parse_starfighter(filename, weapons, engines):
             'techbase': get_techbase(record[94])[0],
             'wings': record[95]
         }
-
-
-def read_unpack(binary_file, fmt):
-    """Read bytes from a binary file sized according to the given struct format."""
-    return struct.unpack(fmt, binary_file.read(struct.calcsize(fmt)))
 
 
 def parse_old_criticals(sws_file):
@@ -134,7 +128,7 @@ def parse_old_criticals(sws_file):
 def parse_old_starfighter(filename, weapons, engines):
     sf = new_starfighter()
     with open(filename, 'rb') as f:
-        engine_record = struct.unpack('<h20s2hfh', f.read(32))
+        engine_record = read_unpack(f, '<h20s2hfh')
         sf['speed'] = engine_record[2]
 
         armor_record = read_unpack(f, '<16s5hf')
