@@ -8,6 +8,29 @@ import sys
 from vb6_stuff import *
 
 
+def new_starfighter():
+    return {
+        'name': '',
+        'abbr': '',
+        'space': 0,
+        'criticals': {},
+        'armor': {},
+        'shields': 0,
+        'speed': 0,
+        'techbase': '',
+        'wings': 0
+    }
+
+
+def new_criticals():
+    return {
+        'C': [],
+        'F': [],
+        'LW': [],
+        'RW': []
+    }
+
+
 def get_armor_type(arm):
     if arm == 0:
         return 'Standard'
@@ -43,27 +66,22 @@ def grouper(iterable, n, fillvalue=None):
 
 
 def parse_criticals(crit_buf, weapons, engines):
-    ret = {
-        'C': [],
-        'F': [],
-        'LW': [],
-        'RW': []
-    }
+    crits = new_criticals()
     for (loc, rec_num, id_num) in grouper(crit_buf, 3):
         loc_name = location_name(loc)
         if not loc_name:
             continue
         if rec_num in weapons:
             name = 'W' + str(rec_num) + '-' + weapons[rec_num]
-            ret[loc_name].append(name)
+            crits[loc_name].append(name)
         elif rec_num < 0 and -rec_num in engines:
             # engine criticals are stored with negative numbers
             name = 'E' + str(-rec_num) + '-' + engines[-rec_num]
-            ret[loc_name].append(name)
+            crits[loc_name].append(name)
         else:
-            #ret[loc_name].append(rec_num)
+            #crits[loc_name].append(rec_num)
             raise RuntimeError
-    return ret
+    return crits
 
 
 def parse_starfighter(filename, weapons, engines):
@@ -78,14 +96,69 @@ def parse_starfighter(filename, weapons, engines):
                 'C': record[87],
                 'F': record[88],
                 'LW': record[89],
-                'RW': record[90]
+                'RW': record[90],
+                'type': get_armor_type(record[91])
             },
-            'armor_type': get_armor_type(record[91]),
             'shields': record[92],
             'speed': record[93],
             'techbase': get_techbase(record[94])[0],
             'wings': record[95]
         }
+
+
+def read_unpack(binary_file, fmt):
+    """Read bytes from a binary file sized according to the given struct format."""
+    return struct.unpack(fmt, binary_file.read(struct.calcsize(fmt)))
+
+
+def parse_old_criticals(sws_file):
+    crits = new_criticals()
+    locs = ['C', 'F', 'LW', 'RW']
+    items_seen = {}
+    for loc, _ in zip(itertools.cycle(locs), range(48)):
+        crit_record = read_unpack(sws_file, '<21shf')
+        num_criticals = crit_record[1]
+        if num_criticals == 0:
+            continue
+        item = crit_record[0].decode().strip()
+        name_to_use = item
+        if item in items_seen:
+            items_seen[item] += 1
+            name_to_use = item + ' #' + str(items_seen[item])
+        else:
+            items_seen[item] = 1
+        crits[loc].extend([name_to_use] * num_criticals)
+    return crits
+
+
+def parse_old_starfighter(filename, weapons, engines):
+    sf = new_starfighter()
+    with open(filename, 'rb') as f:
+        engine_record = struct.unpack('<h20s2hfh', f.read(32))
+        sf['speed'] = engine_record[2]
+
+        armor_record = read_unpack(f, '<16s5hf')
+        sf['armor'] = {
+            'C': armor_record[1],
+            'F': armor_record[2],
+            'LW': armor_record[3],
+            'RW': armor_record[4],
+            'type': armor_record[0].decode().strip()
+        }
+
+        ship_record = read_unpack(f, '<25s6s3hc4h')
+        sf['name'] = ship_record[0].decode().strip()
+        sf['abbr'] = ship_record[1].decode().strip()
+        sf['space'] = ship_record[2]
+        sf['shields'] = ship_record[3]
+        sf['techbase'] = get_techbase(ship_record[5])[0]
+        sf['wings'] = ship_record[6]
+
+        # Skip the internal structure record.
+        read_unpack(f, '<f4h')
+
+        sf['criticals'] = parse_old_criticals(f)
+    return sf
 
 
 def load_data_file(filename):
@@ -109,5 +182,10 @@ if __name__ == '__main__':
     engines_file = os.path.join(mydir, 'engines.json')
     engines = dict(load_data_file(engines_file))
 
-    starfighter = parse_starfighter(sys.argv[1], weapons, engines)
-    print(json.dumps(starfighter, indent=4))
+    _, ext = os.path.splitext(sys.argv[1])
+    if ext == '.sw2':
+        starfighter = parse_starfighter(sys.argv[1], weapons, engines)
+        print(json.dumps(starfighter, indent=4))
+    else:
+        starfighter = parse_old_starfighter(sys.argv[1], weapons, engines)
+        print(json.dumps(starfighter, indent=4))
