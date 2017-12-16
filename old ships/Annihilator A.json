@@ -1,0 +1,47 @@
+{
+    "name": "Annihilator A",
+    "abbr": "ANH a",
+    "space": 100,
+    "criticals": {
+        "C": [
+            "Targeting Computer",
+            "Communications",
+            "Life Support",
+            "Auto Eject System",
+            "Sensors",
+            "Co-pilot"
+        ],
+        "F": [
+            "Heavy Ion Cannon",
+            "Heavy Ion Cannon #2",
+            "Antimatter Converter",
+            "Shields",
+            "Shields",
+            "Shields",
+            "Shields",
+            "Shields",
+            "Shields",
+            "Shields",
+            "Shields"
+        ],
+        "LW": [
+            "Fission Cannon",
+            "Fission Cannon #3"
+        ],
+        "RW": [
+            "Fission Cannon #2",
+            "Fission Cannon #4"
+        ]
+    },
+    "armor": {
+        "C": 6,
+        "F": 74,
+        "LW": 60,
+        "RW": 60,
+        "type": "Clear Plast"
+    },
+    "shields": 400,
+    "speed": 6,
+    "techbase": "Herald",
+    "wings": 2
+}

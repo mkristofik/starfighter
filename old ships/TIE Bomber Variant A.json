@@ -1,0 +1,39 @@
+{
+    "name": "TIE Bomber Variant A",
+    "abbr": "T/B-A",
+    "space": 45,
+    "criticals": {
+        "C": [
+            "Targeting Computer",
+            "Communications",
+            "Life Support",
+            "Auto Eject System",
+            "Sensors"
+        ],
+        "F": [
+            "Ion Engine",
+            "Ion Engine",
+            "Shields",
+            "Shields"
+        ],
+        "LW": [
+            "Medium Laser",
+            "Warhead Launcher"
+        ],
+        "RW": [
+            "Medium Laser #2",
+            "Warhead Launcher #2"
+        ]
+    },
+    "armor": {
+        "C": 5,
+        "F": 13,
+        "LW": 6,
+        "RW": 6,
+        "type": "Standard"
+    },
+    "shields": 60,
+    "speed": 4,
+    "techbase": "Imperial",
+    "wings": 2
+}

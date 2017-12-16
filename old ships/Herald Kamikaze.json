@@ -1,0 +1,39 @@
+{
+    "name": "Kamikaze (Herald)",
+    "abbr": "KAM",
+    "space": 15,
+    "criticals": {
+        "C": [
+            "Targeting Computer",
+            "Communications",
+            "Life Support",
+            "Auto Eject System",
+            "Sensors"
+        ],
+        "F": [
+            "After Burner (10)",
+            "Space Bomb",
+            "Space Bomb #2",
+            "Space Bomb #3",
+            "Shields",
+            "Crystal SDT Engine"
+        ],
+        "LW": [
+            "Medium Laser"
+        ],
+        "RW": [
+            "Medium Laser #2"
+        ]
+    },
+    "armor": {
+        "C": 2,
+        "F": 4,
+        "LW": 2,
+        "RW": 2,
+        "type": "Clear Plast"
+    },
+    "shields": 40,
+    "speed": 10,
+    "techbase": "Herald",
+    "wings": 2
+}

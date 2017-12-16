@@ -1,0 +1,44 @@
+{
+    "name": "XChagger A",
+    "abbr": "X/ChgA",
+    "space": 50,
+    "criticals": {
+        "C": [
+            "Targeting Computer",
+            "Communications",
+            "Life Support",
+            "Auto Eject System",
+            "Sensors",
+            "Co-pilot"
+        ],
+        "F": [
+            "Antimatter Converter",
+            "After Burner (10)",
+            "After Burner (10) #2",
+            "Shields",
+            "Shields",
+            "Shields",
+            "Shields",
+            "Small Laser"
+        ],
+        "LW": [
+            "Medium Railgun",
+            "Medium Railgun #3"
+        ],
+        "RW": [
+            "Medium Railgun #2",
+            "Medium Railgun #4"
+        ]
+    },
+    "armor": {
+        "C": 6,
+        "F": 28,
+        "LW": 23,
+        "RW": 23,
+        "type": "Clear Plast"
+    },
+    "shields": 200,
+    "speed": 8,
+    "techbase": "Herald",
+    "wings": 2
+}

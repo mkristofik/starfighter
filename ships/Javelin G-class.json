@@ -1,0 +1,33 @@
+{
+    "name": "Javelin G-class",
+    "abbr": "JAV-G",
+    "space": 40,
+    "criticals": {
+        "C": [
+            "W5-Sensors",
+            "W30-R-2 Unit"
+        ],
+        "F": [
+            "E1-Fusion Engine",
+            "E10-Hyperdrive",
+            "W36-Medium Laser",
+            "W36-Medium Laser",
+            "W36-Medium Laser",
+            "W36-Medium Laser",
+            "W36-Medium Laser"
+        ],
+        "LW": [],
+        "RW": []
+    },
+    "armor": {
+        "C": 5,
+        "F": 15,
+        "LW": 0,
+        "RW": 0,
+        "type": "Standard"
+    },
+    "shields": 50,
+    "speed": 8,
+    "techbase": "New Republic",
+    "wings": 0
+}

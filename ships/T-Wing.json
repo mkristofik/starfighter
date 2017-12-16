@@ -1,0 +1,33 @@
+{
+    "name": "T-Wing",
+    "abbr": "T-W",
+    "space": 35,
+    "criticals": {
+        "C": [
+            "W5-Sensors"
+        ],
+        "F": [
+            "E1-Fusion Engine",
+            "E10-Hyperdrive",
+            "W39-Warhead Launcher",
+            "W39-Warhead Launcher"
+        ],
+        "LW": [
+            "W23-Medium Pulse Laser"
+        ],
+        "RW": [
+            "W23-Medium Pulse Laser"
+        ]
+    },
+    "armor": {
+        "C": 5,
+        "F": 6,
+        "LW": 2,
+        "RW": 2,
+        "type": "Standard"
+    },
+    "shields": 20,
+    "speed": 5,
+    "techbase": "New Republic",
+    "wings": 2
+}

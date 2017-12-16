@@ -1,0 +1,41 @@
+{
+    "name": "Assassin",
+    "abbr": "ASN",
+    "space": 40,
+    "criticals": {
+        "C": [
+            "Targeting Computer",
+            "Communications",
+            "Life Support",
+            "Auto Eject System",
+            "Sensors"
+        ],
+        "F": [
+            "Crystal SDT Engine",
+            "Heavy Railgun",
+            "Shields",
+            "Shields",
+            "After Burner (10)",
+            "After Burner (10) #2"
+        ],
+        "LW": [
+            "Medium Ion Cannon",
+            "Warhead Hard Point"
+        ],
+        "RW": [
+            "Medium Ion Cannon #2",
+            "Warhead Hard Point #2"
+        ]
+    },
+    "armor": {
+        "C": 5,
+        "F": 16,
+        "LW": 12,
+        "RW": 12,
+        "type": "Tri-Di Composite"
+    },
+    "shields": 80,
+    "speed": 8,
+    "techbase": "Ploxus",
+    "wings": 2
+}

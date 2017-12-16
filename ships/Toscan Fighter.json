@@ -1,0 +1,37 @@
+{
+    "name": "Toscan Fighter",
+    "abbr": "TOS",
+    "space": 65,
+    "criticals": {
+        "C": [
+            "W5-Sensors"
+        ],
+        "F": [
+            "E4-Ion Engine",
+            "E10-Hyperdrive",
+            "W39-Warhead Launcher",
+            "W39-Warhead Launcher",
+            "W35-Medium Ion Cannon",
+            "W35-Medium Ion Cannon"
+        ],
+        "LW": [
+            "W23-Medium Pulse Laser",
+            "W23-Medium Pulse Laser"
+        ],
+        "RW": [
+            "W23-Medium Pulse Laser",
+            "W23-Medium Pulse Laser"
+        ]
+    },
+    "armor": {
+        "C": 5,
+        "F": 10,
+        "LW": 5,
+        "RW": 5,
+        "type": "Standard"
+    },
+    "shields": 70,
+    "speed": 4,
+    "techbase": "Imperial",
+    "wings": 2
+}

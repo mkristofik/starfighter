@@ -1,0 +1,30 @@
+{
+    "name": "A-9 Vigilance Interceptor",
+    "abbr": "A-9",
+    "space": 45,
+    "criticals": {
+        "C": [
+            "W5-Sensors"
+        ],
+        "F": [
+            "E6-Ion 2XL Engine"
+        ],
+        "LW": [
+            "W14-Heavy Turbolaser"
+        ],
+        "RW": [
+            "W14-Heavy Turbolaser"
+        ]
+    },
+    "armor": {
+        "C": 5,
+        "F": 7,
+        "LW": 4,
+        "RW": 4,
+        "type": "Standard"
+    },
+    "shields": 0,
+    "speed": 8,
+    "techbase": "Imperial",
+    "wings": 2
+}

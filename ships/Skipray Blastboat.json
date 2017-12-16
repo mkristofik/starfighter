@@ -1,0 +1,36 @@
+{
+    "name": "Skipray Blastboat",
+    "abbr": "S/B",
+    "space": 90,
+    "criticals": {
+        "C": [
+            "W5-Sensors"
+        ],
+        "F": [
+            "E5-Ion XL Engine",
+            "E10-Hyperdrive",
+            "W39-Warhead Launcher",
+            "W39-Warhead Launcher"
+        ],
+        "LW": [
+            "W35-Medium Ion Cannon",
+            "W36-Medium Laser"
+        ],
+        "RW": [
+            "W35-Medium Ion Cannon",
+            "W35-Medium Ion Cannon",
+            "W36-Medium Laser"
+        ]
+    },
+    "armor": {
+        "C": 5,
+        "F": 26,
+        "LW": 17,
+        "RW": 17,
+        "type": "Standard"
+    },
+    "shields": 100,
+    "speed": 3,
+    "techbase": "Imperial",
+    "wings": 2
+}

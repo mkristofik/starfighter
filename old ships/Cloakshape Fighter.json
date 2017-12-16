@@ -1,0 +1,48 @@
+{
+    "name": "Cloakshape Fighter",
+    "abbr": "Clk/F",
+    "space": 60,
+    "criticals": {
+        "C": [
+            "Targeting Computer",
+            "Communications",
+            "Life Support",
+            "Auto Eject System",
+            "Sensors"
+        ],
+        "F": [
+            "Hyperdrive",
+            "Hyperdrive",
+            "Hyperdrive",
+            "Shields",
+            "Shields",
+            "Fusion Engine",
+            "Fusion Engine",
+            "Fusion Engine",
+            "Fusion Engine"
+        ],
+        "LW": [
+            "Warhead Launcher",
+            "Heavy Pulse Laser",
+            "Heavy Pulse Laser",
+            "Heavy Pulse Laser"
+        ],
+        "RW": [
+            "Warhead Launcher #2",
+            "Heavy Pulse Laser #2",
+            "Heavy Pulse Laser #2",
+            "Heavy Pulse Laser #2"
+        ]
+    },
+    "armor": {
+        "C": 5,
+        "F": 11,
+        "LW": 7,
+        "RW": 7,
+        "type": "Standard"
+    },
+    "shields": 100,
+    "speed": 4,
+    "techbase": "New Republic",
+    "wings": 2
+}

@@ -1,0 +1,41 @@
+{
+    "name": "Funky Town",
+    "abbr": "F/T",
+    "space": 100,
+    "criticals": {
+        "C": [
+            "W5-Sensors",
+            "W7-Co-Pilot"
+        ],
+        "F": [
+            "E8-Antimatter Converter",
+            "W14-Heavy Turbolaser",
+            "W55-Small Laser"
+        ],
+        "LW": [
+            "W42-Heavy Pulse Laser",
+            "W42-Heavy Pulse Laser",
+            "W56-Warhead Launcher",
+            "W47-Missile Ammo (4)",
+            "W47-Missile Ammo (4)"
+        ],
+        "RW": [
+            "W42-Heavy Pulse Laser",
+            "W42-Heavy Pulse Laser",
+            "W56-Warhead Launcher",
+            "W47-Missile Ammo (4)",
+            "W47-Missile Ammo (4)"
+        ]
+    },
+    "armor": {
+        "C": 6,
+        "F": 60,
+        "LW": 47,
+        "RW": 47,
+        "type": "Clearplast"
+    },
+    "shields": 200,
+    "speed": 6,
+    "techbase": "Herald",
+    "wings": 2
+}

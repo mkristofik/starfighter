@@ -1,0 +1,47 @@
+{
+    "name": "Invader",
+    "abbr": "INV",
+    "space": 50,
+    "criticals": {
+        "C": [
+            "Targeting Computer",
+            "Communications",
+            "Life Support",
+            "Auto Eject System",
+            "Sensors",
+            "Co-pilot"
+        ],
+        "F": [
+            "Antimatter Converter",
+            "Fission Cannon",
+            "Fission Cannon #2",
+            "After Burner (10)",
+            "After Burner (10) #2",
+            "After Burner (10) #3",
+            "After Burner (10) #4",
+            "Shields",
+            "Shields",
+            "Shields",
+            "Shields"
+        ],
+        "LW": [
+            "Dragonfly RP 20",
+            "Dragonfly RP 20"
+        ],
+        "RW": [
+            "Dragonfly RP 20 #2",
+            "Dragonfly RP 20 #2"
+        ]
+    },
+    "armor": {
+        "C": 6,
+        "F": 40,
+        "LW": 32,
+        "RW": 32,
+        "type": "Clear Plast"
+    },
+    "shields": 200,
+    "speed": 8,
+    "techbase": "Herald",
+    "wings": 2
+}

@@ -1,0 +1,41 @@
+{
+    "name": "A-Wing Recon Fighter",
+    "abbr": "A-W/R",
+    "space": 35,
+    "criticals": {
+        "C": [
+            "Targeting Computer",
+            "Communications",
+            "Life Support",
+            "Auto Eject System",
+            "Long-Range Sensors",
+            "Long-Range Sensors"
+        ],
+        "F": [
+            "Hyperdrive",
+            "Hyperdrive",
+            "Fusion Engine",
+            "Fusion Engine",
+            "Fusion Engine",
+            "Fusion Engine",
+            "Shields",
+            "Medium Pulse Laser",
+            "Medium Pulse Laser",
+            "Medium Pulse Laser #2",
+            "Medium Pulse Laser #2"
+        ],
+        "LW": [],
+        "RW": []
+    },
+    "armor": {
+        "C": 5,
+        "F": 10,
+        "LW": 0,
+        "RW": 0,
+        "type": "Standard"
+    },
+    "shields": 40,
+    "speed": 7,
+    "techbase": "New Republic",
+    "wings": 0
+}

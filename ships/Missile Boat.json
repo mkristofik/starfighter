@@ -1,0 +1,43 @@
+{
+    "name": "Missile Boat",
+    "abbr": "MIS",
+    "space": 65,
+    "criticals": {
+        "C": [
+            "W5-Sensors",
+            "W38-Small Laser"
+        ],
+        "F": [
+            "E10-Hyperdrive",
+            "E11-SLAM System",
+            "E6-Ion 2XL Engine"
+        ],
+        "LW": [
+            "W39-Warhead Launcher",
+            "W39-Warhead Launcher",
+            "W26-Advanced Missile Ammo (6)",
+            "W26-Advanced Missile Ammo (6)",
+            "W26-Advanced Missile Ammo (6)",
+            "W26-Advanced Missile Ammo (6)"
+        ],
+        "RW": [
+            "W39-Warhead Launcher",
+            "W39-Warhead Launcher",
+            "W26-Advanced Missile Ammo (6)",
+            "W26-Advanced Missile Ammo (6)",
+            "W26-Advanced Missile Ammo (6)",
+            "W26-Advanced Missile Ammo (6)"
+        ]
+    },
+    "armor": {
+        "C": 5,
+        "F": 10,
+        "LW": 5,
+        "RW": 5,
+        "type": "Standard"
+    },
+    "shields": 100,
+    "speed": 6,
+    "techbase": "Imperial",
+    "wings": 3
+}

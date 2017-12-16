@@ -1,0 +1,46 @@
+{
+    "name": "XChagger",
+    "abbr": "X/Chg",
+    "space": 50,
+    "criticals": {
+        "C": [
+            "Targeting Computer",
+            "Communications",
+            "Life Support",
+            "Auto Eject System",
+            "Sensors",
+            "Co-pilot"
+        ],
+        "F": [
+            "Antimatter Converter",
+            "Warhead Launcher",
+            "Warhead Launcher #2",
+            "TAG System",
+            "Heavy Rocket Ammo (2)",
+            "Heavy Rocket Ammo (2) #2",
+            "Shields",
+            "Shields",
+            "Shields",
+            "Shields"
+        ],
+        "LW": [
+            "Medium Pulse Laser",
+            "Medium Pulse Laser #3"
+        ],
+        "RW": [
+            "Medium Pulse Laser #2",
+            "Medium Pulse Laser #4"
+        ]
+    },
+    "armor": {
+        "C": 6,
+        "F": 31,
+        "LW": 24,
+        "RW": 24,
+        "type": "Clear Plast"
+    },
+    "shields": 200,
+    "speed": 7,
+    "techbase": "Herald",
+    "wings": 2
+}

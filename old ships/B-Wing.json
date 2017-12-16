@@ -1,0 +1,54 @@
+{
+    "name": "B-Wing",
+    "abbr": "B-W",
+    "space": 80,
+    "criticals": {
+        "C": [
+            "Targeting Computer",
+            "Communications",
+            "Life Support",
+            "Auto Eject System",
+            "Sensors"
+        ],
+        "F": [
+            "Fusion XL Engine",
+            "Fusion XL Engine",
+            "Fusion XL Engine",
+            "Fusion XL Engine",
+            "Fusion XL Engine",
+            "Fusion XL Engine",
+            "Hyperdrive",
+            "Hyperdrive",
+            "Hyperdrive",
+            "Hyperdrive",
+            "Shields",
+            "Shields"
+        ],
+        "LW": [
+            "S-Foil",
+            "Heavy Pulse Laser",
+            "Heavy Pulse Laser",
+            "Heavy Pulse Laser",
+            "Warhead Launcher",
+            "Medium Ion Cannon"
+        ],
+        "RW": [
+            "S-Foil #2",
+            "Dual Small Laser",
+            "Warhead Launcher #2",
+            "Medium Ion Cannon #2",
+            "Medium Ion Cannon #3"
+        ]
+    },
+    "armor": {
+        "C": 5,
+        "F": 19,
+        "LW": 13,
+        "RW": 13,
+        "type": "Standard"
+    },
+    "shields": 100,
+    "speed": 5,
+    "techbase": "New Republic",
+    "wings": 2
+}

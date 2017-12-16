@@ -1,0 +1,48 @@
+{
+    "name": "TIE Eliminator",
+    "abbr": "T/E",
+    "space": 60,
+    "criticals": {
+        "C": [
+            "Targeting Computer",
+            "Communications",
+            "Life Support",
+            "Auto Eject System",
+            "Sensors"
+        ],
+        "F": [
+            "Crystal SDT Engine",
+            "Warhead Launcher",
+            "Missile Ammo (4)",
+            "Missile Ammo (4) #2",
+            "After Burner (10)",
+            "Shields",
+            "Shields",
+            "Shields",
+            "Shields"
+        ],
+        "LW": [
+            "Medium Pulse Laser",
+            "Medium Pulse Laser #3",
+            "Medium Pulse Laser #5",
+            "Medium Pulse Laser #7"
+        ],
+        "RW": [
+            "Medium Pulse Laser #2",
+            "Medium Pulse Laser #4",
+            "Medium Pulse Laser #6",
+            "Medium Pulse Laser #8"
+        ]
+    },
+    "armor": {
+        "C": 5,
+        "F": 20,
+        "LW": 15,
+        "RW": 15,
+        "type": "Tri-Di Composite"
+    },
+    "shields": 160,
+    "speed": 7,
+    "techbase": "Ploxus",
+    "wings": 2
+}

@@ -1,0 +1,33 @@
+{
+    "name": "Z-96 Cheetah",
+    "abbr": "Z-96",
+    "space": 35,
+    "criticals": {
+        "C": [
+            "W5-Sensors",
+            "W30-R-2 Unit"
+        ],
+        "F": [
+            "E10-Hyperdrive",
+            "E2-Fusion XL Engine",
+            "W20-Warhead Latch"
+        ],
+        "LW": [
+            "W22-Heavy Pulse Laser"
+        ],
+        "RW": [
+            "W22-Heavy Pulse Laser"
+        ]
+    },
+    "armor": {
+        "C": 5,
+        "F": 7,
+        "LW": 4,
+        "RW": 4,
+        "type": "Standard"
+    },
+    "shields": 50,
+    "speed": 10,
+    "techbase": "New Republic",
+    "wings": 2
+}

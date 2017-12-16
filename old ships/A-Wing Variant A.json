@@ -1,0 +1,42 @@
+{
+    "name": "A-Wing Variant A",
+    "abbr": "A-W/A",
+    "space": 50,
+    "criticals": {
+        "C": [
+            "Targeting Computer",
+            "Communications",
+            "Life Support",
+            "Auto Eject System",
+            "Sensors",
+            "R-2 Unit"
+        ],
+        "F": [
+            "Fusion Engine",
+            "Fusion Engine",
+            "Fusion Engine",
+            "Fusion Engine",
+            "Sensor Jamming Pack",
+            "Sensor Jamming Pack",
+            "Medium Pulse Laser",
+            "Medium Pulse Laser",
+            "Medium Pulse Laser #2",
+            "Medium Pulse Laser #2",
+            "Shields",
+            "Shields"
+        ],
+        "LW": [],
+        "RW": []
+    },
+    "armor": {
+        "C": 5,
+        "F": 20,
+        "LW": 0,
+        "RW": 0,
+        "type": "Standard"
+    },
+    "shields": 100,
+    "speed": 6,
+    "techbase": "New Republic",
+    "wings": 0
+}

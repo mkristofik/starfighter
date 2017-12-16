@@ -1,0 +1,52 @@
+{
+    "name": "Z-98 Assault Fighter",
+    "abbr": "Z-98",
+    "space": 50,
+    "criticals": {
+        "C": [
+            "Targeting Computer",
+            "Communications",
+            "Life Support",
+            "Auto Eject System",
+            "Sensors"
+        ],
+        "F": [
+            "Fusion Engine",
+            "Fusion Engine",
+            "Fusion Engine",
+            "Fusion Engine",
+            "Hyperdrive",
+            "Hyperdrive",
+            "Hyperdrive",
+            "Shields",
+            "Shields"
+        ],
+        "LW": [
+            "Heavy Pulse Laser",
+            "Heavy Pulse Laser",
+            "Heavy Pulse Laser",
+            "Heavy Pulse Laser #3",
+            "Heavy Pulse Laser #3",
+            "Heavy Pulse Laser #3"
+        ],
+        "RW": [
+            "Heavy Pulse Laser #2",
+            "Heavy Pulse Laser #2",
+            "Heavy Pulse Laser #2",
+            "Heavy Pulse Laser #4",
+            "Heavy Pulse Laser #4",
+            "Heavy Pulse Laser #4"
+        ]
+    },
+    "armor": {
+        "C": 5,
+        "F": 7,
+        "LW": 4,
+        "RW": 4,
+        "type": "Standard"
+    },
+    "shields": 100,
+    "speed": 6,
+    "techbase": "New Republic",
+    "wings": 2
+}

@@ -1,0 +1,31 @@
+{
+    "name": "Scimitar Assault Bomber",
+    "abbr": "SCI",
+    "space": 50,
+    "criticals": {
+        "C": [
+            "W5-Sensors"
+        ],
+        "F": [
+            "E5-Ion XL Engine",
+            "W39-Warhead Launcher",
+            "W39-Warhead Launcher",
+            "W36-Medium Laser",
+            "W36-Medium Laser",
+            "W27-Advanced Torpedo Ammo (4)"
+        ],
+        "LW": [],
+        "RW": []
+    },
+    "armor": {
+        "C": 5,
+        "F": 14,
+        "LW": 8,
+        "RW": 8,
+        "type": "Standard"
+    },
+    "shields": 70,
+    "speed": 6,
+    "techbase": "Imperial",
+    "wings": 2
+}

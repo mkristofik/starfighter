@@ -1,0 +1,45 @@
+{
+    "name": "Razor Fighter",
+    "abbr": "Rzr/F",
+    "space": 50,
+    "criticals": {
+        "C": [
+            "Targeting Computer",
+            "Communications",
+            "Life Support",
+            "Auto Eject System",
+            "Sensors"
+        ],
+        "F": [
+            "Fusion Engine",
+            "Fusion Engine",
+            "Fusion Engine",
+            "Fusion Engine",
+            "Hyperdrive",
+            "Hyperdrive",
+            "Hyperdrive",
+            "Shields",
+            "Warhead Launcher",
+            "Warhead Launcher #2"
+        ],
+        "LW": [
+            "Medium Laser",
+            "Medium Ion Cannon"
+        ],
+        "RW": [
+            "Medium Laser #2",
+            "Medium Ion Cannon #2"
+        ]
+    },
+    "armor": {
+        "C": 5,
+        "F": 7,
+        "LW": 4,
+        "RW": 4,
+        "type": "Standard"
+    },
+    "shields": 40,
+    "speed": 5,
+    "techbase": "New Republic",
+    "wings": 2
+}

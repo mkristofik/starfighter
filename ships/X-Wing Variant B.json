@@ -1,0 +1,37 @@
+{
+    "name": "X-Wing Variant B",
+    "abbr": "X-W/B",
+    "space": 50,
+    "criticals": {
+        "C": [
+            "W5-Sensors",
+            "W30-R-2 Unit"
+        ],
+        "F": [
+            "E1-Fusion Engine",
+            "E10-Hyperdrive",
+            "W33-Heavy Ion Cannon",
+            "W33-Heavy Ion Cannon"
+        ],
+        "LW": [
+            "W8-S Foil",
+            "W23-Medium Pulse Laser",
+            "W23-Medium Pulse Laser"
+        ],
+        "RW": [
+            "W23-Medium Pulse Laser",
+            "W23-Medium Pulse Laser"
+        ]
+    },
+    "armor": {
+        "C": 5,
+        "F": 7,
+        "LW": 4,
+        "RW": 4,
+        "type": "Standard"
+    },
+    "shields": 50,
+    "speed": 6,
+    "techbase": "New Republic",
+    "wings": 2
+}

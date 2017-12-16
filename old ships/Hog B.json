@@ -1,0 +1,47 @@
+{
+    "name": "Hog B",
+    "abbr": "HOGb",
+    "space": 80,
+    "criticals": {
+        "C": [
+            "Targeting Computer",
+            "Communications",
+            "Life Support",
+            "Auto Eject System",
+            "Sensors",
+            "Isometal IS #2"
+        ],
+        "F": [
+            "Isometal IS",
+            "Crystal SDT Engine",
+            "Shields",
+            "Shields",
+            "Shields",
+            "Shields",
+            "Shields",
+            "Shields",
+            "Shields"
+        ],
+        "LW": [
+            "Particle Gun",
+            "Heavy Ion Cannon",
+            "Warhead Hard Point"
+        ],
+        "RW": [
+            "Particle Gun #2",
+            "Heavy Ion Cannon #2",
+            "Warhead Hard Point #2"
+        ]
+    },
+    "armor": {
+        "C": 5,
+        "F": 62,
+        "LW": 44,
+        "RW": 44,
+        "type": "Tri-Di Composite"
+    },
+    "shields": 320,
+    "speed": 6,
+    "techbase": "Ploxus",
+    "wings": 2
+}

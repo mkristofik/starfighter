@@ -1,0 +1,32 @@
+{
+    "name": "Shielded TIE Interceptor",
+    "abbr": "T/I",
+    "space": 35,
+    "criticals": {
+        "C": [
+            "W5-Sensors"
+        ],
+        "F": [
+            "E4-Ion Engine"
+        ],
+        "LW": [
+            "W36-Medium Laser",
+            "W36-Medium Laser"
+        ],
+        "RW": [
+            "W36-Medium Laser",
+            "W36-Medium Laser"
+        ]
+    },
+    "armor": {
+        "C": 5,
+        "F": 7,
+        "LW": 4,
+        "RW": 4,
+        "type": "Standard"
+    },
+    "shields": 30,
+    "speed": 5,
+    "techbase": "Imperial",
+    "wings": 2
+}

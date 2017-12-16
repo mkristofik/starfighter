@@ -1,0 +1,27 @@
+{
+    "name": "TIE Vanguard",
+    "abbr": "TIE/rc",
+    "space": 15,
+    "criticals": {
+        "C": [
+            "W6-Long-Range Sensors"
+        ],
+        "F": [
+            "E4-Ion Engine",
+            "W36-Medium Laser"
+        ],
+        "LW": [],
+        "RW": []
+    },
+    "armor": {
+        "C": 5,
+        "F": 4,
+        "LW": 3,
+        "RW": 3,
+        "type": "Standard"
+    },
+    "shields": 0,
+    "speed": 8,
+    "techbase": "Imperial",
+    "wings": 2
+}

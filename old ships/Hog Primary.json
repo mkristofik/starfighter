@@ -1,0 +1,45 @@
+{
+    "name": "Hog Primary",
+    "abbr": "HOG",
+    "space": 80,
+    "criticals": {
+        "C": [
+            "Targeting Computer",
+            "Communications",
+            "Life Support",
+            "Auto Eject System",
+            "Sensors",
+            "Isometal IS #2"
+        ],
+        "F": [
+            "Isometal IS",
+            "Crystal SDT Engine",
+            "Fission Cannon #3",
+            "Shields",
+            "Shields",
+            "Shields",
+            "Shields",
+            "Shields",
+            "Shields"
+        ],
+        "LW": [
+            "Fission Cannon",
+            "Medium Ion Cannon"
+        ],
+        "RW": [
+            "Fission Cannon #2",
+            "Medium Ion Cannon #2"
+        ]
+    },
+    "armor": {
+        "C": 5,
+        "F": 45,
+        "LW": 35,
+        "RW": 35,
+        "type": "Tri-Di Composite"
+    },
+    "shields": 300,
+    "speed": 6,
+    "techbase": "Ploxus",
+    "wings": 2
+}

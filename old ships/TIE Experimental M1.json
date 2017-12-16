@@ -1,0 +1,39 @@
+{
+    "name": "TIE Experimental M1",
+    "abbr": "T/e1",
+    "space": 25,
+    "criticals": {
+        "C": [
+            "Targeting Computer",
+            "Communications",
+            "Life Support",
+            "Auto Eject System",
+            "Sensors"
+        ],
+        "F": [
+            "Ion Engine",
+            "Ion Engine",
+            "Heavy Turbolaser",
+            "Heavy Turbolaser",
+            "Heavy Turbolaser",
+            "Heavy Turbolaser",
+            "Heavy Turbolaser",
+            "Heavy Turbolaser",
+            "Hyperdrive",
+            "Hyperdrive"
+        ],
+        "LW": [],
+        "RW": []
+    },
+    "armor": {
+        "C": 5,
+        "F": 5,
+        "LW": 0,
+        "RW": 0,
+        "type": "Standard"
+    },
+    "shields": 0,
+    "speed": 5,
+    "techbase": "Imperial",
+    "wings": 0
+}

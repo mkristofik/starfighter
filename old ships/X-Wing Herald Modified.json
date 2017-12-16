@@ -1,0 +1,47 @@
+{
+    "name": "X-Wing (Herald Modified)",
+    "abbr": "X-W/h",
+    "space": 50,
+    "criticals": {
+        "C": [
+            "Targeting Computer",
+            "Communications",
+            "Life Support",
+            "Auto Eject System",
+            "Long-Range Sensors",
+            "Long-Range Sensors"
+        ],
+        "F": [
+            "Dragonfly RP 50",
+            "Dragonfly RP 50",
+            "Dragonfly RP 50 #2",
+            "Dragonfly RP 50 #2",
+            "Shields",
+            "Shields",
+            "Shields",
+            "Shields",
+            "Crystal SDT Engine"
+        ],
+        "LW": [
+            "S-Foil",
+            "Medium Pulse Laser",
+            "Medium Pulse Laser #3"
+        ],
+        "RW": [
+            "S-Foil #2",
+            "Medium Pulse Laser #2",
+            "Medium Pulse Laser #4"
+        ]
+    },
+    "armor": {
+        "C": 5,
+        "F": 30,
+        "LW": 20,
+        "RW": 20,
+        "type": "Clear Plast"
+    },
+    "shields": 200,
+    "speed": 6,
+    "techbase": "Herald",
+    "wings": 2
+}

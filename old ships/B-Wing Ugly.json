@@ -1,0 +1,47 @@
+{
+    "name": "B-Wing Ugly",
+    "abbr": "b-w",
+    "space": 80,
+    "criticals": {
+        "C": [
+            "Targeting Computer",
+            "Communications",
+            "Life Support",
+            "Auto Eject System",
+            "Sensors"
+        ],
+        "F": [
+            "Ion Engine",
+            "Ion Engine",
+            "Hyperdrive",
+            "Hyperdrive",
+            "Hyperdrive",
+            "Hyperdrive",
+            "Heavy Turbolaser",
+            "Heavy Turbolaser",
+            "Heavy Turbolaser",
+            "Heavy Turbolaser",
+            "Heavy Turbolaser",
+            "Heavy Turbolaser"
+        ],
+        "LW": [
+            "S-Foil",
+            "Medium Ion Cannon"
+        ],
+        "RW": [
+            "S-Foil #2",
+            "Medium Ion Cannon #2"
+        ]
+    },
+    "armor": {
+        "C": 5,
+        "F": 32,
+        "LW": 19,
+        "RW": 19,
+        "type": "Standard"
+    },
+    "shields": 0,
+    "speed": 3,
+    "techbase": "Herald",
+    "wings": 2
+}

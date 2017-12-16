@@ -1,0 +1,36 @@
+{
+    "name": "TIE Vanguard",
+    "abbr": "TIE/rc",
+    "space": 20,
+    "criticals": {
+        "C": [
+            "Targeting Computer",
+            "Communications",
+            "Life Support",
+            "Auto Eject System",
+            "Long-Range Sensors",
+            "Long-Range Sensors"
+        ],
+        "F": [
+            "Ion Engine",
+            "Ion Engine",
+            "Small Pulse Laser",
+            "Small Pulse Laser",
+            "Small Pulse Laser #2",
+            "Small Pulse Laser #2"
+        ],
+        "LW": [],
+        "RW": []
+    },
+    "armor": {
+        "C": 5,
+        "F": 6,
+        "LW": 2,
+        "RW": 2,
+        "type": "Standard"
+    },
+    "shields": 0,
+    "speed": 7,
+    "techbase": "Imperial",
+    "wings": 2
+}

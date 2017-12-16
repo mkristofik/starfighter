@@ -1,0 +1,53 @@
+{
+    "name": "Funky Town A",
+    "abbr": "F/Ta",
+    "space": 100,
+    "criticals": {
+        "C": [
+            "Targeting Computer",
+            "Communications",
+            "Life Support",
+            "Auto Eject System",
+            "Sensors",
+            "Co-pilot"
+        ],
+        "F": [
+            "Antimatter Converter",
+            "Shields",
+            "Shields",
+            "Shields",
+            "Shields",
+            "Heavy Ion Cannon",
+            "Heavy Ion Cannon #2",
+            "Heavy Ion Cannon #3",
+            "Heavy Ion Cannon #4"
+        ],
+        "LW": [
+            "Heavy Turbolaser",
+            "Heavy Turbolaser",
+            "Heavy Turbolaser",
+            "Heavy Turbolaser",
+            "Heavy Turbolaser",
+            "Heavy Turbolaser"
+        ],
+        "RW": [
+            "Heavy Turbolaser #2",
+            "Heavy Turbolaser #2",
+            "Heavy Turbolaser #2",
+            "Heavy Turbolaser #2",
+            "Heavy Turbolaser #2",
+            "Heavy Turbolaser #2"
+        ]
+    },
+    "armor": {
+        "C": 6,
+        "F": 60,
+        "LW": 47,
+        "RW": 47,
+        "type": "Clear Plast"
+    },
+    "shields": 200,
+    "speed": 6,
+    "techbase": "Herald",
+    "wings": 2
+}

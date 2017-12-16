@@ -1,0 +1,54 @@
+{
+    "name": "Funky Town",
+    "abbr": "F/T",
+    "space": 100,
+    "criticals": {
+        "C": [
+            "Targeting Computer",
+            "Communications",
+            "Life Support",
+            "Auto Eject System",
+            "Sensors",
+            "Co-pilot"
+        ],
+        "F": [
+            "Antimatter Converter",
+            "Heavy Turbolaser",
+            "Heavy Turbolaser",
+            "Heavy Turbolaser",
+            "Heavy Turbolaser",
+            "Heavy Turbolaser",
+            "Heavy Turbolaser",
+            "Shields",
+            "Shields",
+            "Shields",
+            "Shields",
+            "Small Laser"
+        ],
+        "LW": [
+            "Heavy Pulse Laser",
+            "Heavy Pulse Laser #3",
+            "Warhead Launcher",
+            "Missile Ammo (4)",
+            "Missile Ammo (4) #3"
+        ],
+        "RW": [
+            "Heavy Pulse Laser #2",
+            "Heavy Pulse Laser #4",
+            "Warhead Launcher #2",
+            "Missile Ammo (4) #2",
+            "Missile Ammo (4) #4"
+        ]
+    },
+    "armor": {
+        "C": 6,
+        "F": 60,
+        "LW": 47,
+        "RW": 47,
+        "type": "Clear Plast"
+    },
+    "shields": 200,
+    "speed": 6,
+    "techbase": "Herald",
+    "wings": 2
+}

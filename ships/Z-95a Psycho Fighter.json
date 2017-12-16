@@ -1,0 +1,31 @@
+{
+    "name": "Z-95A Psycho Fighter",
+    "abbr": "Z-95/A",
+    "space": 50,
+    "criticals": {
+        "C": [
+            "W6-Long-Range Sensors"
+        ],
+        "F": [
+            "E2-Fusion XL Engine",
+            "E10-Hyperdrive"
+        ],
+        "LW": [
+            "W15-Medium Turbolaser"
+        ],
+        "RW": [
+            "W15-Medium Turbolaser"
+        ]
+    },
+    "armor": {
+        "C": 5,
+        "F": 10,
+        "LW": 5,
+        "RW": 5,
+        "type": "Standard"
+    },
+    "shields": 60,
+    "speed": 8,
+    "techbase": "New Republic",
+    "wings": 2
+}

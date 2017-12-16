@@ -1,0 +1,29 @@
+{
+    "name": "TIE Fighter Variant B",
+    "abbr": "TIE/fc",
+    "space": 20,
+    "criticals": {
+        "C": [
+            "W5-Sensors",
+            "W18-TAG System"
+        ],
+        "F": [
+            "E4-Ion Engine",
+            "W36-Medium Laser",
+            "W36-Medium Laser"
+        ],
+        "LW": [],
+        "RW": []
+    },
+    "armor": {
+        "C": 5,
+        "F": 6,
+        "LW": 2,
+        "RW": 2,
+        "type": "Standard"
+    },
+    "shields": 0,
+    "speed": 5,
+    "techbase": "Imperial",
+    "wings": 2
+}

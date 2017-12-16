@@ -1,0 +1,47 @@
+{
+    "name": "Funky Town B",
+    "abbr": "F/Tb",
+    "space": 100,
+    "criticals": {
+        "C": [
+            "Targeting Computer",
+            "Communications",
+            "Life Support",
+            "Auto Eject System",
+            "Sensors",
+            "Co-pilot"
+        ],
+        "F": [
+            "Antimatter Converter",
+            "Shields",
+            "Shields",
+            "Shields",
+            "Shields"
+        ],
+        "LW": [
+            "Heavy Pulse Laser",
+            "Heavy Pulse Laser #3",
+            "Heavy Pulse Laser #5",
+            "Heavy Pulse Laser #7",
+            "Heavy Pulse Laser #9"
+        ],
+        "RW": [
+            "Heavy Pulse Laser #2",
+            "Heavy Pulse Laser #4",
+            "Heavy Pulse Laser #6",
+            "Heavy Pulse Laser #8",
+            "Heavy Pulse Laser #10"
+        ]
+    },
+    "armor": {
+        "C": 6,
+        "F": 60,
+        "LW": 47,
+        "RW": 47,
+        "type": "Clear Plast"
+    },
+    "shields": 200,
+    "speed": 6,
+    "techbase": "Herald",
+    "wings": 2
+}

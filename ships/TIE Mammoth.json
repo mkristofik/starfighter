@@ -1,0 +1,36 @@
+{
+    "name": "TIE Mammoth",
+    "abbr": "T/M",
+    "space": 90,
+    "criticals": {
+        "C": [
+            "W6-Long-Range Sensors"
+        ],
+        "F": [
+            "E6-Ion 2XL Engine",
+            "W39-Warhead Launcher",
+            "W39-Warhead Launcher",
+            "W28-Heavy Rocket Ammo (2)",
+            "W28-Heavy Rocket Ammo (2)",
+            "W28-Heavy Rocket Ammo (2)",
+            "W28-Heavy Rocket Ammo (2)"
+        ],
+        "LW": [
+            "W16-Small Turbolaser"
+        ],
+        "RW": [
+            "W16-Small Turbolaser"
+        ]
+    },
+    "armor": {
+        "C": 5,
+        "F": 25,
+        "LW": 20,
+        "RW": 20,
+        "type": "Standard"
+    },
+    "shields": 100,
+    "speed": 5,
+    "techbase": "Imperial",
+    "wings": 2
+}

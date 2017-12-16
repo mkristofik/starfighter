@@ -1,0 +1,44 @@
+{
+    "name": "T-Wing",
+    "abbr": "T-W",
+    "space": 35,
+    "criticals": {
+        "C": [
+            "Targeting Computer",
+            "Communications",
+            "Life Support",
+            "Auto Eject System",
+            "Sensors"
+        ],
+        "F": [
+            "Hyperdrive",
+            "Hyperdrive",
+            "Fusion Engine",
+            "Fusion Engine",
+            "Fusion Engine",
+            "Fusion Engine",
+            "Shields",
+            "Warhead Launcher",
+            "Warhead Launcher #2"
+        ],
+        "LW": [
+            "Medium Pulse Laser",
+            "Medium Pulse Laser"
+        ],
+        "RW": [
+            "Medium Pulse Laser #2",
+            "Medium Pulse Laser #2"
+        ]
+    },
+    "armor": {
+        "C": 5,
+        "F": 6,
+        "LW": 2,
+        "RW": 2,
+        "type": "Standard"
+    },
+    "shields": 20,
+    "speed": 5,
+    "techbase": "New Republic",
+    "wings": 2
+}

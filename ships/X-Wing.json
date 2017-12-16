@@ -1,0 +1,37 @@
+{
+    "name": "X-Wing",
+    "abbr": "X-W",
+    "space": 50,
+    "criticals": {
+        "C": [
+            "W5-Sensors",
+            "W30-R-2 Unit"
+        ],
+        "F": [
+            "E1-Fusion Engine",
+            "E10-Hyperdrive",
+            "W39-Warhead Launcher",
+            "W39-Warhead Launcher"
+        ],
+        "LW": [
+            "W8-S Foil",
+            "W36-Medium Laser",
+            "W36-Medium Laser"
+        ],
+        "RW": [
+            "W36-Medium Laser",
+            "W36-Medium Laser"
+        ]
+    },
+    "armor": {
+        "C": 5,
+        "F": 7,
+        "LW": 4,
+        "RW": 4,
+        "type": "Standard"
+    },
+    "shields": 50,
+    "speed": 5,
+    "techbase": "New Republic",
+    "wings": 2
+}

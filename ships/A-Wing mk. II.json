@@ -1,0 +1,36 @@
+{
+    "name": "A-Wing mk. II",
+    "abbr": "A-Wm2",
+    "space": 60,
+    "criticals": {
+        "C": [
+            "W5-Sensors"
+        ],
+        "F": [
+            "E2-Fusion XL Engine",
+            "E10-Hyperdrive",
+            "W26-Advanced Missile Ammo (6)"
+        ],
+        "LW": [
+            "W39-Warhead Launcher",
+            "W22-Heavy Pulse Laser",
+            "W36-Medium Laser"
+        ],
+        "RW": [
+            "W39-Warhead Launcher",
+            "W22-Heavy Pulse Laser",
+            "W36-Medium Laser"
+        ]
+    },
+    "armor": {
+        "C": 5,
+        "F": 8,
+        "LW": 6,
+        "RW": 6,
+        "type": "Standard"
+    },
+    "shields": 100,
+    "speed": 6,
+    "techbase": "New Republic",
+    "wings": 2
+}

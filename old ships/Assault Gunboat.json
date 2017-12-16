@@ -1,0 +1,47 @@
+{
+    "name": "Assault Gunboat",
+    "abbr": "GUN",
+    "space": 65,
+    "criticals": {
+        "C": [
+            "Targeting Computer",
+            "Communications",
+            "Life Support",
+            "Auto Eject System",
+            "Sensors"
+        ],
+        "F": [
+            "Ion Engine",
+            "Ion Engine",
+            "Hyperdrive",
+            "Hyperdrive",
+            "Hyperdrive",
+            "Hyperdrive",
+            "Shields",
+            "Shields",
+            "Medium Laser",
+            "Medium Laser #2",
+            "Medium Ion Cannon",
+            "Medium Ion Cannon #2"
+        ],
+        "LW": [
+            "Missile Ammo (4)",
+            "Warhead Launcher"
+        ],
+        "RW": [
+            "Missile Ammo (4) #2",
+            "Warhead Launcher #2"
+        ]
+    },
+    "armor": {
+        "C": 5,
+        "F": 11,
+        "LW": 7,
+        "RW": 7,
+        "type": "Standard"
+    },
+    "shields": 100,
+    "speed": 4,
+    "techbase": "Imperial",
+    "wings": 3
+}

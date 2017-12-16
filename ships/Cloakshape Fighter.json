@@ -1,0 +1,33 @@
+{
+    "name": "Cloakshape Fighter",
+    "abbr": "Clk/F",
+    "space": 60,
+    "criticals": {
+        "C": [
+            "W5-Sensors"
+        ],
+        "F": [
+            "E1-Fusion Engine",
+            "E10-Hyperdrive"
+        ],
+        "LW": [
+            "W39-Warhead Launcher",
+            "W22-Heavy Pulse Laser"
+        ],
+        "RW": [
+            "W39-Warhead Launcher",
+            "W22-Heavy Pulse Laser"
+        ]
+    },
+    "armor": {
+        "C": 5,
+        "F": 11,
+        "LW": 7,
+        "RW": 7,
+        "type": "Standard"
+    },
+    "shields": 100,
+    "speed": 4,
+    "techbase": "New Republic",
+    "wings": 2
+}

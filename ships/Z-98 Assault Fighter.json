@@ -1,0 +1,33 @@
+{
+    "name": "Z-98 Assault Fighter",
+    "abbr": "Z-98",
+    "space": 50,
+    "criticals": {
+        "C": [
+            "W5-Sensors"
+        ],
+        "F": [
+            "E1-Fusion Engine",
+            "E10-Hyperdrive"
+        ],
+        "LW": [
+            "W22-Heavy Pulse Laser",
+            "W22-Heavy Pulse Laser"
+        ],
+        "RW": [
+            "W22-Heavy Pulse Laser",
+            "W22-Heavy Pulse Laser"
+        ]
+    },
+    "armor": {
+        "C": 5,
+        "F": 7,
+        "LW": 4,
+        "RW": 4,
+        "type": "Standard"
+    },
+    "shields": 100,
+    "speed": 6,
+    "techbase": "New Republic",
+    "wings": 2
+}

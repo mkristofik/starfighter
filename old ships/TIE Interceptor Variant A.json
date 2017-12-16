@@ -1,0 +1,38 @@
+{
+    "name": "TIE Interceptor Variant A",
+    "abbr": "T/I-A",
+    "space": 35,
+    "criticals": {
+        "C": [
+            "Targeting Computer",
+            "Communications",
+            "Life Support",
+            "Auto Eject System",
+            "Sensors"
+        ],
+        "F": [
+            "Ion Engine",
+            "Ion Engine",
+            "Shields"
+        ],
+        "LW": [
+            "Medium Laser",
+            "Medium Laser #3"
+        ],
+        "RW": [
+            "Medium Laser #2",
+            "Medium Laser #4"
+        ]
+    },
+    "armor": {
+        "C": 5,
+        "F": 7,
+        "LW": 4,
+        "RW": 4,
+        "type": "Standard"
+    },
+    "shields": 30,
+    "speed": 5,
+    "techbase": "Imperial",
+    "wings": 2
+}

@@ -1,0 +1,35 @@
+{
+    "name": "Blade-30",
+    "abbr": "BL-30",
+    "space": 35,
+    "criticals": {
+        "C": [
+            "W59-Lightbounce Sensors",
+            "W7-Co-Pilot"
+        ],
+        "F": [
+            "E1-Fusion Engine",
+            "W38-Small Laser",
+            "W38-Small Laser",
+            "W38-Small Laser",
+            "W38-Small Laser"
+        ],
+        "LW": [
+            "W19-Warhead Hardpoint"
+        ],
+        "RW": [
+            "W19-Warhead Hardpoint"
+        ]
+    },
+    "armor": {
+        "C": 6,
+        "F": 10,
+        "LW": 7,
+        "RW": 7,
+        "type": "Standard"
+    },
+    "shields": 0,
+    "speed": 4,
+    "techbase": "New Republic",
+    "wings": 2
+}

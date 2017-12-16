@@ -1,0 +1,30 @@
+{
+    "name": "Arrow",
+    "abbr": "ARW",
+    "space": 30,
+    "criticals": {
+        "C": [
+            "W6-Long-Range Sensors"
+        ],
+        "F": [
+            "E1-Fusion Engine",
+            "E10-Hyperdrive",
+            "W23-Medium Pulse Laser",
+            "W23-Medium Pulse Laser",
+            "W19-Warhead Hardpoint"
+        ],
+        "LW": [],
+        "RW": []
+    },
+    "armor": {
+        "C": 5,
+        "F": 10,
+        "LW": 0,
+        "RW": 0,
+        "type": "Standard"
+    },
+    "shields": 50,
+    "speed": 10,
+    "techbase": "New Republic",
+    "wings": 0
+}

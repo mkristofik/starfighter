@@ -1,0 +1,35 @@
+{
+    "name": "X-Wing Psycho Variant",
+    "abbr": "X-W",
+    "space": 50,
+    "criticals": {
+        "C": [
+            "W6-Long-Range Sensors"
+        ],
+        "F": [
+            "E2-Fusion XL Engine",
+            "E10-Hyperdrive",
+            "W19-Warhead Hardpoint"
+        ],
+        "LW": [
+            "W8-S Foil",
+            "W36-Medium Laser",
+            "W36-Medium Laser"
+        ],
+        "RW": [
+            "W36-Medium Laser",
+            "W36-Medium Laser"
+        ]
+    },
+    "armor": {
+        "C": 5,
+        "F": 11,
+        "LW": 7,
+        "RW": 7,
+        "type": "Standard"
+    },
+    "shields": 100,
+    "speed": 8,
+    "techbase": "New Republic",
+    "wings": 2
+}

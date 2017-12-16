@@ -1,0 +1,45 @@
+{
+    "name": "Z-95A Psycho Fighter",
+    "abbr": "Z-95/A",
+    "space": 35,
+    "criticals": {
+        "C": [
+            "Targeting Computer",
+            "Communications",
+            "Life Support",
+            "Auto Eject System",
+            "Sensors"
+        ],
+        "F": [
+            "Hyperdrive",
+            "Hyperdrive",
+            "Fusion XL Engine",
+            "Fusion XL Engine",
+            "Fusion XL Engine",
+            "Fusion XL Engine",
+            "Fusion XL Engine",
+            "Fusion XL Engine",
+            "Shields",
+            "Shields"
+        ],
+        "LW": [
+            "Heavy Laser",
+            "Heavy Laser"
+        ],
+        "RW": [
+            "Heavy Laser #2",
+            "Heavy Laser #2"
+        ]
+    },
+    "armor": {
+        "C": 5,
+        "F": 10,
+        "LW": 5,
+        "RW": 5,
+        "type": "Standard"
+    },
+    "shields": 60,
+    "speed": 7,
+    "techbase": "New Republic",
+    "wings": 2
+}

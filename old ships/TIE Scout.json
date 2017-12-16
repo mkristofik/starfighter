@@ -1,0 +1,39 @@
+{
+    "name": "TIE Scout",
+    "abbr": "TIE/sc",
+    "space": 30,
+    "criticals": {
+        "C": [
+            "Targeting Computer",
+            "Communications",
+            "Life Support",
+            "Auto Eject System",
+            "Long-Range Sensors",
+            "Long-Range Sensors"
+        ],
+        "F": [
+            "Ion XL Engine",
+            "Ion XL Engine",
+            "Ion XL Engine"
+        ],
+        "LW": [
+            "Medium Laser",
+            "Medium Laser #3"
+        ],
+        "RW": [
+            "Medium Laser #2",
+            "Medium Laser #4"
+        ]
+    },
+    "armor": {
+        "C": 5,
+        "F": 6,
+        "LW": 2,
+        "RW": 2,
+        "type": "Standard"
+    },
+    "shields": 0,
+    "speed": 7,
+    "techbase": "Imperial",
+    "wings": 2
+}

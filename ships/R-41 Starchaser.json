@@ -1,0 +1,35 @@
+{
+    "name": "R-41 Starchaser",
+    "abbr": "R-41",
+    "space": 40,
+    "criticals": {
+        "C": [
+            "W5-Sensors"
+        ],
+        "F": [
+            "E1-Fusion Engine",
+            "E10-Hyperdrive",
+            "W39-Warhead Launcher",
+            "W39-Warhead Launcher"
+        ],
+        "LW": [
+            "W23-Medium Pulse Laser",
+            "W37-Small Ion Cannon"
+        ],
+        "RW": [
+            "W23-Medium Pulse Laser",
+            "W37-Small Ion Cannon"
+        ]
+    },
+    "armor": {
+        "C": 5,
+        "F": 6,
+        "LW": 2,
+        "RW": 2,
+        "type": "Standard"
+    },
+    "shields": 30,
+    "speed": 5,
+    "techbase": "New Republic",
+    "wings": 2
+}

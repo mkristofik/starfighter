@@ -1,0 +1,56 @@
+{
+    "name": "Intruder",
+    "abbr": "INTR",
+    "space": 70,
+    "criticals": {
+        "C": [
+            "Targeting Computer",
+            "Communications",
+            "Life Support",
+            "Auto Eject System",
+            "Sensors",
+            "Co-pilot"
+        ],
+        "F": [
+            "Fission Cannon",
+            "Space Bomb",
+            "Space Bomb #2",
+            "Space Bomb #3",
+            "Space Bomb #4",
+            "After Burner (10)",
+            "After Burner (10) #2",
+            "Shields",
+            "Shields",
+            "Shields",
+            "Shields",
+            "Antimatter Converter"
+        ],
+        "LW": [
+            "Warhead Launcher",
+            "Warhead Launcher #3",
+            "Missile Ammo (4)",
+            "Missile Ammo (4) #3",
+            "Missile Ammo (4) #5",
+            "Space Bomb #5"
+        ],
+        "RW": [
+            "Warhead Launcher #2",
+            "Warhead Launcher #4",
+            "Missile Ammo (4) #2",
+            "Missile Ammo (4) #4",
+            "Missile Ammo (4) #6",
+            "Space Bomb #6"
+        ]
+    },
+    "armor": {
+        "C": 6,
+        "F": 56,
+        "LW": 44,
+        "RW": 44,
+        "type": "Clear Plast"
+    },
+    "shields": 200,
+    "speed": 7,
+    "techbase": "Herald",
+    "wings": 2
+}

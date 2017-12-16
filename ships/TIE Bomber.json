@@ -1,0 +1,32 @@
+{
+    "name": "TIE Bomber",
+    "abbr": "T/B",
+    "space": 45,
+    "criticals": {
+        "C": [
+            "W5-Sensors"
+        ],
+        "F": [
+            "E4-Ion Engine",
+            "W39-Warhead Launcher",
+            "W39-Warhead Launcher"
+        ],
+        "LW": [
+            "W36-Medium Laser"
+        ],
+        "RW": [
+            "W36-Medium Laser"
+        ]
+    },
+    "armor": {
+        "C": 5,
+        "F": 16,
+        "LW": 7,
+        "RW": 7,
+        "type": "Standard"
+    },
+    "shields": 0,
+    "speed": 4,
+    "techbase": "Imperial",
+    "wings": 2
+}

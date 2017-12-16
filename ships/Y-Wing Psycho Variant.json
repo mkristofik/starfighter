@@ -1,0 +1,32 @@
+{
+    "name": "Y-Wing Psycho Variant",
+    "abbr": "Y-W/S",
+    "space": 40,
+    "criticals": {
+        "C": [
+            "W6-Long-Range Sensors"
+        ],
+        "F": [
+            "E10-Hyperdrive",
+            "W24-Quad Medium Laser",
+            "W20-Warhead Latch",
+            "W20-Warhead Latch",
+            "W31-Sensor Jamming Pack"
+        ],
+        "LW": [
+            "E2-Fusion XL Engine"
+        ],
+        "RW": []
+    },
+    "armor": {
+        "C": 5,
+        "F": 9,
+        "LW": 8,
+        "RW": 8,
+        "type": "Standard"
+    },
+    "shields": 80,
+    "speed": 8,
+    "techbase": "New Republic",
+    "wings": 2
+}

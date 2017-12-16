@@ -1,0 +1,48 @@
+{
+    "name": "Skipray Blastboat",
+    "abbr": "S/B",
+    "space": 90,
+    "criticals": {
+        "C": [
+            "Targeting Computer",
+            "Communications",
+            "Life Support",
+            "Auto Eject System",
+            "Sensors"
+        ],
+        "F": [
+            "Ion XL Engine",
+            "Ion XL Engine",
+            "Ion XL Engine",
+            "Hyperdrive",
+            "Hyperdrive",
+            "Hyperdrive",
+            "Hyperdrive",
+            "Hyperdrive",
+            "Shields",
+            "Shields",
+            "Warhead Launcher",
+            "Warhead Launcher #2"
+        ],
+        "LW": [
+            "Medium Ion Cannon",
+            "Medium Laser"
+        ],
+        "RW": [
+            "Medium Ion Cannon #2",
+            "Medium Ion Cannon #3",
+            "Medium Laser #2"
+        ]
+    },
+    "armor": {
+        "C": 5,
+        "F": 26,
+        "LW": 17,
+        "RW": 17,
+        "type": "Standard"
+    },
+    "shields": 100,
+    "speed": 3,
+    "techbase": "Imperial",
+    "wings": 2
+}

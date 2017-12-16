@@ -1,0 +1,46 @@
+{
+    "name": "TIE Experimental M2",
+    "abbr": "T/e2",
+    "space": 35,
+    "criticals": {
+        "C": [
+            "Targeting Computer",
+            "Communications",
+            "Life Support",
+            "Auto Eject System",
+            "Sensors"
+        ],
+        "F": [
+            "Ion XL Engine",
+            "Ion XL Engine",
+            "Ion XL Engine",
+            "Hyperdrive",
+            "Hyperdrive"
+        ],
+        "LW": [
+            "Medium Turbolaser",
+            "Medium Turbolaser",
+            "Medium Turbolaser",
+            "Medium Turbolaser",
+            "Medium Turbolaser"
+        ],
+        "RW": [
+            "Medium Turbolaser #2",
+            "Medium Turbolaser #2",
+            "Medium Turbolaser #2",
+            "Medium Turbolaser #2",
+            "Medium Turbolaser #2"
+        ]
+    },
+    "armor": {
+        "C": 5,
+        "F": 5,
+        "LW": 0,
+        "RW": 0,
+        "type": "Standard"
+    },
+    "shields": 0,
+    "speed": 5,
+    "techbase": "Imperial",
+    "wings": 2
+}

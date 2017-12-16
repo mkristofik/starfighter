@@ -1,0 +1,44 @@
+{
+    "name": "T-Wing (Herald)",
+    "abbr": "HT-W",
+    "space": 35,
+    "criticals": {
+        "C": [
+            "Targeting Computer",
+            "Communications",
+            "Life Support",
+            "Auto Eject System",
+            "Sensors",
+            "Co-pilot"
+        ],
+        "F": [
+            "Antimatter Converter",
+            "Warhead Launcher",
+            "Missile Ammo (4)",
+            "Missile Ammo (4) #2",
+            "After Burner (10)",
+            "After Burner (10) #2",
+            "TAG System",
+            "Shields",
+            "Shields",
+            "Shields"
+        ],
+        "LW": [
+            "Medium Pulse Laser"
+        ],
+        "RW": [
+            "Medium Pulse Laser #2"
+        ]
+    },
+    "armor": {
+        "C": 6,
+        "F": 24,
+        "LW": 20,
+        "RW": 20,
+        "type": "Clear Plast"
+    },
+    "shields": 120,
+    "speed": 9,
+    "techbase": "Herald",
+    "wings": 2
+}

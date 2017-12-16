@@ -1,0 +1,39 @@
+{
+    "name": "Pinook Fighter",
+    "abbr": "Pnk/F",
+    "space": 30,
+    "criticals": {
+        "C": [
+            "Targeting Computer",
+            "Communications",
+            "Life Support",
+            "Auto Eject System",
+            "Sensors"
+        ],
+        "F": [
+            "Fusion Engine",
+            "Fusion Engine",
+            "Fusion Engine",
+            "Fusion Engine",
+            "Shields",
+            "Warhead Launcher"
+        ],
+        "LW": [
+            "Medium Laser"
+        ],
+        "RW": [
+            "Medium Laser #2"
+        ]
+    },
+    "armor": {
+        "C": 5,
+        "F": 4,
+        "LW": 3,
+        "RW": 3,
+        "type": "Standard"
+    },
+    "shields": 30,
+    "speed": 5,
+    "techbase": "New Republic",
+    "wings": 2
+}

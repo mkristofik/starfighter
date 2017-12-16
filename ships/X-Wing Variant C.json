@@ -1,0 +1,33 @@
+{
+    "name": "X-Wing Variant C",
+    "abbr": "X-W/C",
+    "space": 50,
+    "criticals": {
+        "C": [
+            "W6-Long-Range Sensors"
+        ],
+        "F": [
+            "E2-Fusion XL Engine",
+            "E10-Hyperdrive"
+        ],
+        "LW": [
+            "W19-Warhead Hardpoint",
+            "W22-Heavy Pulse Laser"
+        ],
+        "RW": [
+            "W19-Warhead Hardpoint",
+            "W22-Heavy Pulse Laser"
+        ]
+    },
+    "armor": {
+        "C": 5,
+        "F": 11,
+        "LW": 7,
+        "RW": 7,
+        "type": "Standard"
+    },
+    "shields": 100,
+    "speed": 8,
+    "techbase": "New Republic",
+    "wings": 2
+}

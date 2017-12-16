@@ -77,8 +77,10 @@ def parse_criticals(crit_buf, weapons, engines):
             # engine criticals are stored with negative numbers
             name = 'E' + str(-rec_num) + '-' + engines[-rec_num]
             crits[loc_name].append(name)
+        elif rec_num == 0 and loc == 1:
+            # this looks like a bug that a blank critical was added to the cockpit
+            continue
         else:
-            #crits[loc_name].append(rec_num)
             raise RuntimeError
     return crits
 

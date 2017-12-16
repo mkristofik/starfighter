@@ -1,0 +1,38 @@
+{
+    "name": "Lambda-Class Shuttle",
+    "abbr": "SHU",
+    "space": 95,
+    "criticals": {
+        "C": [
+            "W5-Sensors",
+            "W7-Co-Pilot"
+        ],
+        "F": [
+            "E5-Ion XL Engine",
+            "W61-Cargo",
+            "W61-Cargo",
+            "W61-Cargo",
+            "W61-Cargo",
+            "E10-Hyperdrive"
+        ],
+        "LW": [
+            "W36-Medium Laser",
+            "W36-Medium Laser"
+        ],
+        "RW": [
+            "W36-Medium Laser",
+            "W36-Medium Laser"
+        ]
+    },
+    "armor": {
+        "C": 6,
+        "F": 29,
+        "LW": 15,
+        "RW": 15,
+        "type": "Standard"
+    },
+    "shields": 100,
+    "speed": 3,
+    "techbase": "Imperial",
+    "wings": 3
+}

@@ -1,0 +1,50 @@
+{
+    "name": "Pursuer Enforcement Ship",
+    "abbr": "PES",
+    "space": 80,
+    "criticals": {
+        "C": [
+            "Targeting Computer",
+            "Communications",
+            "Life Support",
+            "Auto Eject System",
+            "Sensors"
+        ],
+        "F": [
+            "Fusion XL Engine",
+            "Fusion XL Engine",
+            "Fusion XL Engine",
+            "Fusion XL Engine",
+            "Fusion XL Engine",
+            "Fusion XL Engine",
+            "Hyperdrive",
+            "Hyperdrive",
+            "Hyperdrive",
+            "Hyperdrive",
+            "Shields",
+            "Shields"
+        ],
+        "LW": [
+            "Heavy Laser",
+            "Heavy Laser",
+            "Heavy Laser #2",
+            "Heavy Laser #2",
+            "Medium Ion Cannon"
+        ],
+        "RW": [
+            "Warhead Launcher",
+            "Warhead Launcher #2"
+        ]
+    },
+    "armor": {
+        "C": 5,
+        "F": 27,
+        "LW": 14,
+        "RW": 14,
+        "type": "Standard"
+    },
+    "shields": 100,
+    "speed": 5,
+    "techbase": "New Republic",
+    "wings": 2
+}

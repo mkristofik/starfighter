@@ -1,0 +1,45 @@
+{
+    "name": "Authority IRD",
+    "abbr": "IRD",
+    "space": 45,
+    "criticals": {
+        "C": [
+            "Targeting Computer",
+            "Communications",
+            "Life Support",
+            "Auto Eject System",
+            "Sensors"
+        ],
+        "F": [
+            "Fusion Engine",
+            "Fusion Engine",
+            "Fusion Engine",
+            "Fusion Engine",
+            "Hyperdrive",
+            "Hyperdrive",
+            "Hyperdrive",
+            "Warhead Launcher",
+            "Warhead Launcher #2",
+            "Shields"
+        ],
+        "LW": [
+            "Heavy Laser",
+            "Heavy Laser"
+        ],
+        "RW": [
+            "Heavy Laser #2",
+            "Heavy Laser #2"
+        ]
+    },
+    "armor": {
+        "C": 5,
+        "F": 7,
+        "LW": 4,
+        "RW": 4,
+        "type": "Standard"
+    },
+    "shields": 40,
+    "speed": 5,
+    "techbase": "New Republic",
+    "wings": 2
+}

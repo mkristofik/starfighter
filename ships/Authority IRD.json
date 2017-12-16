@@ -1,0 +1,33 @@
+{
+    "name": "Authority IRD",
+    "abbr": "IRD",
+    "space": 45,
+    "criticals": {
+        "C": [
+            "W5-Sensors"
+        ],
+        "F": [
+            "E1-Fusion Engine",
+            "E10-Hyperdrive",
+            "W39-Warhead Launcher",
+            "W39-Warhead Launcher"
+        ],
+        "LW": [
+            "W34-Heavy Laser"
+        ],
+        "RW": [
+            "W34-Heavy Laser"
+        ]
+    },
+    "armor": {
+        "C": 5,
+        "F": 7,
+        "LW": 4,
+        "RW": 4,
+        "type": "Standard"
+    },
+    "shields": 40,
+    "speed": 5,
+    "techbase": "New Republic",
+    "wings": 2
+}

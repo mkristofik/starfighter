@@ -1,0 +1,37 @@
+{
+    "name": "TIE Fighter Variant C",
+    "abbr": "TIE/gt",
+    "space": 20,
+    "criticals": {
+        "C": [
+            "Targeting Computer",
+            "Communications",
+            "Life Support",
+            "Auto Eject System",
+            "Sensors"
+        ],
+        "F": [
+            "Ion Engine",
+            "Ion Engine",
+            "Warhead Latch",
+            "Space Bomb",
+            "Small Pulse Laser",
+            "Small Pulse Laser",
+            "Small Pulse Laser #2",
+            "Small Pulse Laser #2"
+        ],
+        "LW": [],
+        "RW": []
+    },
+    "armor": {
+        "C": 5,
+        "F": 6,
+        "LW": 2,
+        "RW": 2,
+        "type": "Standard"
+    },
+    "shields": 0,
+    "speed": 5,
+    "techbase": "Imperial",
+    "wings": 2
+}

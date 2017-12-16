@@ -1,0 +1,52 @@
+{
+    "name": "Supa Fighter",
+    "abbr": "Sup/F",
+    "space": 65,
+    "criticals": {
+        "C": [
+            "Targeting Computer",
+            "Communications",
+            "Life Support",
+            "Auto Eject System",
+            "Sensors",
+            "Small Ion Cannon"
+        ],
+        "F": [
+            "Fusion XL Engine",
+            "Fusion XL Engine",
+            "Fusion XL Engine",
+            "Fusion XL Engine",
+            "Fusion XL Engine",
+            "Fusion XL Engine",
+            "Hyperdrive",
+            "Hyperdrive",
+            "Hyperdrive",
+            "Hyperdrive",
+            "Shields",
+            "Shields"
+        ],
+        "LW": [
+            "Heavy Pulse Laser",
+            "Heavy Pulse Laser",
+            "Heavy Pulse Laser",
+            "Warhead Launcher"
+        ],
+        "RW": [
+            "Heavy Pulse Laser #2",
+            "Heavy Pulse Laser #2",
+            "Heavy Pulse Laser #2",
+            "Warhead Launcher #2"
+        ]
+    },
+    "armor": {
+        "C": 5,
+        "F": 17,
+        "LW": 9,
+        "RW": 9,
+        "type": "Standard"
+    },
+    "shields": 80,
+    "speed": 4,
+    "techbase": "New Republic",
+    "wings": 2
+}

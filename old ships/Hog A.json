@@ -1,0 +1,46 @@
+{
+    "name": "Hog A",
+    "abbr": "HOGa",
+    "space": 80,
+    "criticals": {
+        "C": [
+            "Targeting Computer",
+            "Communications",
+            "Life Support",
+            "Auto Eject System",
+            "Sensors",
+            "Isometal IS #2"
+        ],
+        "F": [
+            "Isometal IS",
+            "Crystal SDT Engine",
+            "Warhead Launcher",
+            "Shields",
+            "Shields",
+            "Shields",
+            "Shields",
+            "Shields",
+            "Shields",
+            "Shields",
+            "Heavy Rocket Ammo (2)",
+            "Heavy Rocket Ammo (2) #2"
+        ],
+        "LW": [
+            "Fission Cannon"
+        ],
+        "RW": [
+            "Fission Cannon #2"
+        ]
+    },
+    "armor": {
+        "C": 5,
+        "F": 64,
+        "LW": 48,
+        "RW": 48,
+        "type": "Tri-Di Composite"
+    },
+    "shields": 320,
+    "speed": 6,
+    "techbase": "Ploxus",
+    "wings": 2
+}

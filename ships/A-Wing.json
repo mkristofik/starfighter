@@ -1,0 +1,32 @@
+{
+    "name": "A-Wing",
+    "abbr": "A-W",
+    "space": 50,
+    "criticals": {
+        "C": [
+            "W5-Sensors",
+            "W30-R-2 Unit"
+        ],
+        "F": [
+            "E1-Fusion Engine",
+            "E10-Hyperdrive",
+            "W39-Warhead Launcher",
+            "W39-Warhead Launcher",
+            "W36-Medium Laser",
+            "W36-Medium Laser"
+        ],
+        "LW": [],
+        "RW": []
+    },
+    "armor": {
+        "C": 5,
+        "F": 10,
+        "LW": 0,
+        "RW": 0,
+        "type": "Standard"
+    },
+    "shields": 50,
+    "speed": 6,
+    "techbase": "New Republic",
+    "wings": 0
+}

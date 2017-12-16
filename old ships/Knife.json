@@ -1,0 +1,40 @@
+{
+    "name": "Knife",
+    "abbr": "KNF",
+    "space": 50,
+    "criticals": {
+        "C": [
+            "Targeting Computer",
+            "Communications",
+            "Life Support",
+            "Auto Eject System",
+            "Sensors"
+        ],
+        "F": [
+            "Crystal SDT Engine",
+            "After Burner (10)",
+            "After Burner (10) #2",
+            "Warhead Hard Point",
+            "Shields",
+            "Shields",
+            "Shields"
+        ],
+        "LW": [
+            "Heavy Railgun"
+        ],
+        "RW": [
+            "Heavy Railgun #2"
+        ]
+    },
+    "armor": {
+        "C": 5,
+        "F": 30,
+        "LW": 20,
+        "RW": 20,
+        "type": "Tri-Di Composite"
+    },
+    "shields": 120,
+    "speed": 9,
+    "techbase": "Ploxus",
+    "wings": 2
+}

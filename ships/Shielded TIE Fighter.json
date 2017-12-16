@@ -1,0 +1,28 @@
+{
+    "name": "Shielded TIE Fighter",
+    "abbr": "T/F",
+    "space": 20,
+    "criticals": {
+        "C": [
+            "W5-Sensors"
+        ],
+        "F": [
+            "E4-Ion Engine",
+            "W36-Medium Laser",
+            "W36-Medium Laser"
+        ],
+        "LW": [],
+        "RW": []
+    },
+    "armor": {
+        "C": 5,
+        "F": 6,
+        "LW": 2,
+        "RW": 2,
+        "type": "Standard"
+    },
+    "shields": 20,
+    "speed": 5,
+    "techbase": "Imperial",
+    "wings": 2
+}

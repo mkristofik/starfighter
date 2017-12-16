@@ -1,0 +1,41 @@
+{
+    "name": "TIE Advanced x1",
+    "abbr": "T/A x1",
+    "space": 35,
+    "criticals": {
+        "C": [
+            "Targeting Computer",
+            "Communications",
+            "Life Support",
+            "Auto Eject System",
+            "Sensors"
+        ],
+        "F": [
+            "Heavy Pulse Laser",
+            "Heavy Pulse Laser",
+            "Heavy Pulse Laser",
+            "Heavy Pulse Laser #2",
+            "Heavy Pulse Laser #2",
+            "Heavy Pulse Laser #2",
+            "Shields",
+            "Hyperdrive",
+            "Hyperdrive",
+            "Ion XL Engine",
+            "Ion XL Engine",
+            "Ion XL Engine"
+        ],
+        "LW": [],
+        "RW": []
+    },
+    "armor": {
+        "C": 5,
+        "F": 7,
+        "LW": 4,
+        "RW": 4,
+        "type": "Standard"
+    },
+    "shields": 40,
+    "speed": 7,
+    "techbase": "Imperial",
+    "wings": 2
+}

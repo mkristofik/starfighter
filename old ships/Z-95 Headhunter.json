@@ -1,0 +1,43 @@
+{
+    "name": "Z-95 Headhunter",
+    "abbr": "Z-95",
+    "space": 35,
+    "criticals": {
+        "C": [
+            "Targeting Computer",
+            "Communications",
+            "Life Support",
+            "Auto Eject System",
+            "Sensors",
+            "R-2 Unit"
+        ],
+        "F": [
+            "Fusion Engine",
+            "Fusion Engine",
+            "Fusion Engine",
+            "Fusion Engine",
+            "Hyperdrive",
+            "Hyperdrive",
+            "Shields",
+            "Warhead Launcher",
+            "Warhead Launcher #2"
+        ],
+        "LW": [
+            "Medium Laser"
+        ],
+        "RW": [
+            "Medium Laser #2"
+        ]
+    },
+    "armor": {
+        "C": 5,
+        "F": 6,
+        "LW": 2,
+        "RW": 2,
+        "type": "Standard"
+    },
+    "shields": 20,
+    "speed": 5,
+    "techbase": "New Republic",
+    "wings": 2
+}

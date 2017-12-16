@@ -1,0 +1,33 @@
+{
+    "name": "Z-96a Dark Cheetah",
+    "abbr": "Z-96a",
+    "space": 35,
+    "criticals": {
+        "C": [
+            "W6-Long-Range Sensors"
+        ],
+        "F": [
+            "E10-Hyperdrive",
+            "E2-Fusion XL Engine",
+            "W31-Sensor Jamming Pack",
+            "W20-Warhead Latch"
+        ],
+        "LW": [
+            "W22-Heavy Pulse Laser"
+        ],
+        "RW": [
+            "W22-Heavy Pulse Laser"
+        ]
+    },
+    "armor": {
+        "C": 5,
+        "F": 7,
+        "LW": 4,
+        "RW": 4,
+        "type": "Standard"
+    },
+    "shields": 50,
+    "speed": 10,
+    "techbase": "New Republic",
+    "wings": 2
+}

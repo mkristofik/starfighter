@@ -1,0 +1,36 @@
+{
+    "name": "Scythe-Class Bomber",
+    "abbr": "SCY",
+    "space": 80,
+    "criticals": {
+        "C": [
+            "W59-Lightbounce Sensors"
+        ],
+        "F": [
+            "E1-Fusion Engine",
+            "W39-Warhead Launcher",
+            "W39-Warhead Launcher",
+            "W32-Space Bomb",
+            "W32-Space Bomb",
+            "W32-Space Bomb",
+            "W32-Space Bomb"
+        ],
+        "LW": [
+            "W38-Small Laser"
+        ],
+        "RW": [
+            "W38-Small Laser"
+        ]
+    },
+    "armor": {
+        "C": 5,
+        "F": 32,
+        "LW": 24,
+        "RW": 24,
+        "type": "Standard"
+    },
+    "shields": 0,
+    "speed": 3,
+    "techbase": "New Republic",
+    "wings": 2
+}

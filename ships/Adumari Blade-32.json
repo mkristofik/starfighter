@@ -1,0 +1,35 @@
+{
+    "name": "Blade-32",
+    "abbr": "BL-32",
+    "space": 40,
+    "criticals": {
+        "C": [
+            "W59-Lightbounce Sensors"
+        ],
+        "F": [
+            "E1-Fusion Engine",
+            "W29-Missile Ammo (4)",
+            "W38-Small Laser",
+            "W38-Small Laser",
+            "W38-Small Laser",
+            "W38-Small Laser"
+        ],
+        "LW": [
+            "W39-Warhead Launcher"
+        ],
+        "RW": [
+            "W39-Warhead Launcher"
+        ]
+    },
+    "armor": {
+        "C": 5,
+        "F": 11,
+        "LW": 7,
+        "RW": 7,
+        "type": "Standard"
+    },
+    "shields": 0,
+    "speed": 4,
+    "techbase": "New Republic",
+    "wings": 2
+}

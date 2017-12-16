@@ -1,0 +1,29 @@
+{
+    "name": "Dart",
+    "abbr": "DRT",
+    "space": 20,
+    "criticals": {
+        "C": [
+            "W5-Sensors",
+            "W30-R-2 Unit"
+        ],
+        "F": [
+            "E1-Fusion Engine",
+            "E10-Hyperdrive",
+            "W16-Small Turbolaser"
+        ],
+        "LW": [],
+        "RW": []
+    },
+    "armor": {
+        "C": 5,
+        "F": 5,
+        "LW": 0,
+        "RW": 0,
+        "type": "Standard"
+    },
+    "shields": 40,
+    "speed": 10,
+    "techbase": "New Republic",
+    "wings": 0
+}

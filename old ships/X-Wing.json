@@ -1,0 +1,48 @@
+{
+    "name": "X-Wing",
+    "abbr": "X-W",
+    "space": 50,
+    "criticals": {
+        "C": [
+            "Targeting Computer",
+            "Communications",
+            "Life Support",
+            "Auto Eject System",
+            "Sensors",
+            "R-2 Unit"
+        ],
+        "F": [
+            "Fusion Engine",
+            "Fusion Engine",
+            "Fusion Engine",
+            "Fusion Engine",
+            "Hyperdrive",
+            "Hyperdrive",
+            "Hyperdrive",
+            "Shields",
+            "Warhead Launcher",
+            "Warhead Launcher #2"
+        ],
+        "LW": [
+            "S-Foil",
+            "Medium Laser",
+            "Medium Laser #3"
+        ],
+        "RW": [
+            "S-Foil #2",
+            "Medium Laser #2",
+            "Medium Laser #4"
+        ]
+    },
+    "armor": {
+        "C": 5,
+        "F": 7,
+        "LW": 4,
+        "RW": 4,
+        "type": "Standard"
+    },
+    "shields": 50,
+    "speed": 5,
+    "techbase": "New Republic",
+    "wings": 2
+}

@@ -1,0 +1,46 @@
+{
+    "name": "R-41 Starchaser",
+    "abbr": "R-41",
+    "space": 40,
+    "criticals": {
+        "C": [
+            "Targeting Computer",
+            "Communications",
+            "Life Support",
+            "Auto Eject System",
+            "Sensors"
+        ],
+        "F": [
+            "Fusion Engine",
+            "Fusion Engine",
+            "Fusion Engine",
+            "Fusion Engine",
+            "Hyperdrive",
+            "Hyperdrive",
+            "Shields",
+            "Warhead Launcher",
+            "Warhead Launcher #2"
+        ],
+        "LW": [
+            "Medium Pulse Laser",
+            "Medium Pulse Laser",
+            "Small Ion Cannon"
+        ],
+        "RW": [
+            "Medium Pulse Laser #2",
+            "Medium Pulse Laser #2",
+            "Small Ion Cannon #2"
+        ]
+    },
+    "armor": {
+        "C": 5,
+        "F": 6,
+        "LW": 2,
+        "RW": 2,
+        "type": "Standard"
+    },
+    "shields": 30,
+    "speed": 5,
+    "techbase": "New Republic",
+    "wings": 2
+}
